@@ -1,20 +1,23 @@
 .nav {
+  z-index: 100;
+  position: fixed;
+  min-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgb(255, 255, 255);
   padding: 5px;
-  box-shadow: -1px 11px 9px -3px rgba(186, 186, 186, 1);
+  box-shadow: -1px 11px 9px -3px rgb(110, 110, 110);
 }
 .title {
   position: relative;
   font-weight: bold;
-  font-size: 130%;
+  font-size: 170%;
   left: 15px;
 }
 .items {
-  width: 30%;
+  width: 40%;
   position: relative;
 }
 .item {
@@ -22,6 +25,7 @@
   align-items: center;
   display: inline-block;
   width: 32%;
+  font-weight: 700;
 }
 .a {
   margin: 0;
