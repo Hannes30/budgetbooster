@@ -8,10 +8,7 @@ export default function Nav() {
       <h1 className={navStyles.title}>BudgetBooster</h1>
       <div className={navStyles.items}>
         <div className={navStyles.item}>
-          <Link
-            className={navStyles.a}
-            href={"https://hannes-scheibelauer.de/"}
-          >
+          <Link className={navStyles.a} href={"./"}>
             <Image
               src="/images/home.png"
               className={navStyles.icon}
@@ -23,7 +20,7 @@ export default function Nav() {
           </Link>
         </div>
         <div className={navStyles.item}>
-          <Link className={navStyles.a} href={"../pages/home"}>
+          <Link className={navStyles.a} href={"./game_site"}>
             <Image
               src="/images/controller.png"
               className={navStyles.icon}
@@ -35,10 +32,7 @@ export default function Nav() {
           </Link>
         </div>
         <div className={navStyles.item}>
-          <Link
-            className={navStyles.a}
-            href={"https://hannes-scheibelauer.de/"}
-          >
+          <Link className={navStyles.a} href={"./about_site"}>
             <Image
               src="/images/info.png"
               className={navStyles.icon}
