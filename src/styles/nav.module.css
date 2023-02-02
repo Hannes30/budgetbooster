@@ -8,7 +8,7 @@
   font-family: "Inter", sans-serif;
   background-color: rgb(255, 255, 255);
   padding: 5px;
-  box-shadow: -1px 11px 9px -3px rgb(110, 110, 110);
+  box-shadow: -1px 8px 7px -2px rgb(148, 148, 148);
 }
 .title {
   position: relative;
@@ -25,16 +25,17 @@
   align-items: center;
   display: inline-block;
   width: 32%;
+  min-width: 100px;
   font-weight: 700;
 }
 .a {
   margin: 0;
   padding: 0;
-  color: #4eb5cb;
+  color: #4ecb71;
   text-decoration: none;
 }
 .a:hover {
-  color: #4195a8;
+  color: #4ecb71;
   text-decoration: underline;
 }
 .icon {

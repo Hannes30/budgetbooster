@@ -1,0 +1,12 @@
+.main {
+  background-color: rgb(50, 50, 50, 1);
+  min-height: 25px;
+  color: #cb4ea8;
+  padding: 1vw;
+  font-weight: 500;
+  font-size: 12px;
+  box-shadow: 0px 0px 21px 1px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
