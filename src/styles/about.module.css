@@ -1,0 +1,58 @@
+.heading {
+  position: relative;
+  top: 5em;
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 300px;
+}
+.title {
+  font-size: 5em;
+}
+.headingdecoration {
+  position: relative;
+}
+.headingimage1 {
+  position: absolute;
+  left: 10%;
+  top: -120px;
+}
+.headingimage2 {
+  position: absolute;
+  left: 75%;
+  top: 30px;
+}
+
+.headingimage3 {
+  position: absolute;
+  left: 90%;
+  top: -100px;
+}
+
+.headingimage4 {
+  position: absolute;
+  left: 15%;
+  top: 0px;
+}
+.spacer {
+  margin-bottom: calc(300px - 10vw);
+}
+.emergenceHeading {
+  text-align: center;
+  width: 100vw;
+  font-size: 300%;
+}
+.emergence {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.emergenceText {
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 1000px) {
+  .headingdecoration {
+    display: none;
+  }
+}

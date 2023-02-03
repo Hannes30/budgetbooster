@@ -1,8 +1,8 @@
-import navStyles from "../styles/nav.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import Nav from "./nav";
 import homeStyles from "../styles/home.module.css";
+import OwnFooter from "./ownFooter";
 
 export default function Home() {
   return (
@@ -11,7 +11,8 @@ export default function Home() {
       <div className={homeStyles.top}>
         {" "}
         <div className={homeStyles.heading}>
-          <h1 className={homeStyles.title}>BudgetBooster</h1>
+          <h1 className={homeStyles.titleTop}>Budget</h1>
+          <h1 className={homeStyles.titleTop}>Booster</h1>
           <div className={homeStyles.images}>
             <Image
               src="/images/statistics-cyan.png"
@@ -36,15 +37,6 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className={homeStyles.circle}>
-          <Image
-            src="/images/money-circle.png"
-            className={homeStyles.money}
-            height={500}
-            width={500}
-            alt=""
-          />
-        </div>
       </div>
       <div className={homeStyles.infoText}>
         BudgetBooster ist ein Spiel bei dem sie lernen,ihr Geld clever zu
@@ -52,9 +44,50 @@ export default function Home() {
         Entscheidungen über Einkäufe und Ausgaben treffen,um ihr Budget zu
         optimieren.
       </div>
+      <div className={homeStyles.play}>
+        <h2 className={homeStyles.title}>Spielen</h2>
+        <div className={homeStyles.infoText}>
+          Verbesser deine Fähigkeiten im Umgang mit Geld und lerne, wie du
+          sinnlose Ausgaben vermeidest. Starte jetzt das Spiel und werde ein Pro
+          im Verwalten deiner Finanzen!
+        </div>
+        <div className={homeStyles.playbuttonparent}>
+          <Link className={homeStyles.playbutton} href={"./game_site"}>
+            Play
+          </Link>
+          <Image
+            src="/images/moneybutton1.png"
+            className={
+              homeStyles.playbuttonicon + " " + homeStyles.playbuttonicon1
+            }
+            height={48}
+            width={48}
+            alt=""
+          />
+          <Image
+            src="/images/moneybutton2.png"
+            className={
+              homeStyles.playbuttonicon + " " + homeStyles.playbuttonicon2
+            }
+            height={48}
+            width={48}
+            alt=""
+          />
+          <Image
+            src="/images/moneybutton3.png"
+            className={
+              homeStyles.playbuttonicon + " " + homeStyles.playbuttonicon3
+            }
+            height={48}
+            width={48}
+            alt=""
+          />
+        </div>
+      </div>
       <div className={homeStyles.insights}>
         <h2 className={homeStyles.title}>Einblicke</h2>
       </div>
+      <OwnFooter></OwnFooter>
     </div>
   );
 }
