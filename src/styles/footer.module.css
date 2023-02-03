@@ -1,6 +1,7 @@
 .main {
   background-color: rgb(50, 50, 50, 1);
   min-height: 25px;
+  height: 5vw;
   color: #cb4ea8;
   padding: 1vw;
   font-weight: 500;

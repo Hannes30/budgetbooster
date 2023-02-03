@@ -1,0 +1,108 @@
+.questions {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
+  height: 80vh;
+}
+.question {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  bottom: 0;
+
+  height: 80%;
+  transition: transform 1s;
+}
+.question:hover {
+  filter: brightness(0.9);
+  z-index: 10;
+  transform: scale(1.1);
+}
+
+.question1Parent {
+  width: 50%;
+  color: #ededed;
+  background-color: #333;
+}
+.question2Parent {
+  width: 50%;
+  right: 0;
+  background-color: #ededed;
+  color: #333;
+}
+.question1 {
+  margin: 10px;
+}
+.question2 {
+  margin: 10px;
+}
+.tutorial {
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 30px;
+  width: 90vw;
+  background-color: #ededed;
+  height: min-content;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 12px 20px 0px rgba(0, 0, 0, 0.25);
+  line-height: 40px;
+  display: block;
+  top: 110px;
+  margin-bottom: 150px;
+}
+.tutorialWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.startGame {
+  background-color: #333;
+  color: #4ecb71;
+  font-size: 40px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+.startGame:hover {
+  background-color: #111;
+  cursor: pointer;
+}
+.moneyDisplayParent {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.moneyDisplay {
+  width: min-content;
+  box-shadow: 10px 10px 29px -5px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  font-size: 64px;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 15px;
+  color: #4ecb71;
+}
+.Wrapper {
+  position: relative;
+  top: 55px;
+  overflow: hidden;
+}
+.price {
+  position: absolute;
+  top: 50%;
+  font-size: 64px;
+  color: #4ecb71;
+}

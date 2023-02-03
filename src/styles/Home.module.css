@@ -25,6 +25,7 @@
 .images {
   display: flex;
   flex-wrap: nowrap;
+  margin-top: 4rem;
   width: 75%;
   justify-content: space-around;
 }
