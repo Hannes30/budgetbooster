@@ -22,6 +22,7 @@ export default function Questions() {
     ],
   ];
   const [count, setCount] = useState(0);
+  const [front, setFront] = useState(1);
   let objToRender = <></>;
 
   if (count == 0) {
@@ -47,11 +48,29 @@ export default function Questions() {
         </div>
 
         <div className={qStyles.questions}>
-          <button className={qStyles.question1Parent + " " + qStyles.question}>
+          <button
+            className={
+              qStyles.question1Parent +
+              " " +
+              qStyles.question +
+              " " +
+              (front == 1 ? qStyles.z1 : qStyles.z2)
+            }
+            onMouseOver={() => setFront(2)}
+          >
             <div className={qStyles.question1}>{qArray[count][0]}</div>
             <div className={qStyles.price}>{qArray[count][2]}€</div>
           </button>
-          <button className={qStyles.question2Parent + " " + qStyles.question}>
+          <button
+            className={
+              qStyles.question2Parent +
+              " " +
+              qStyles.question +
+              " " +
+              (front == 1 ? qStyles.z2 : qStyles.z1)
+            }
+            onMouseOver={() => setFront(1)}
+          >
             <div className={qStyles.question2}>{qArray[count][1]}</div>
             <div className={qStyles.price}>{qArray[count][3]}€</div>
           </button>
