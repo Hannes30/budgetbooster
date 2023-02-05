@@ -89,8 +89,10 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  align-items: center;
 }
 .moneyDisplay {
+  position: relative;
   width: min-content;
   box-shadow: 10px 10px 29px -5px rgba(0, 0, 0, 0.5);
   padding: 15px;
@@ -110,4 +112,39 @@
   top: 50%;
   font-size: 64px;
   color: #4ecb71;
+}
+.addmoney {
+  visibility: visible;
+  position: absolute;
+  font-size: 64px;
+  top: 15%;
+  opacity: 1;
+  left: 120%;
+  transition: left 1s, opacity 0.55s;
+}
+.addmoneyInvisible {
+  visibility: hidden;
+}
+.moving {
+  left: 0%;
+  opacity: 0;
+}
+.green {
+  color: #4ecb71;
+}
+.red {
+  color: #cb4e64;
+}
+.dayDisplay {
+  flex-wrap: nowrap;
+  width: min-content;
+  position: relative;
+  margin-right: 35px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.greenSpan {
+  font-size: 48px;
+  color: #4ecb71;
+  font-weight: 600;
 }

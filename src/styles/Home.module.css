@@ -20,7 +20,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: min-content;    
+  height: min-content;
 }
 .images {
   display: flex;

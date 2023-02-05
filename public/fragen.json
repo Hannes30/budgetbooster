@@ -1,0 +1,110 @@
+{
+  "0": {
+    "0": [
+      {
+        "a": "Ich trinke nach der Schule meinen Kaffee bei Starbucks",
+        "p": 5
+      },
+      {
+        "a": "Ich mache mir daheim einen Kaffe mit der Kaffe Maschine",
+        "p": 1
+      }
+    ]
+  },
+  "1": {
+    "0": [
+      {
+        "a": "Ich kaufe mir nach der Schule Zigaretten",
+        "p": 7
+      },
+      {
+        "a": "Ich verzichte auf das Rauchen",
+        "p": 0
+      }
+    ]
+  },
+  "2": {
+    "0": [
+      {
+        "a": "Ich gehe mit meiner Freundin ins Kino",
+        "p": 25
+      },
+      {
+        "a": "Ich gehe mit meiner Freundin ins Restaurant",
+        "p": 40
+      }
+    ]
+  },
+  "3": {
+    "0": [
+      {
+        "a": "Ich gehe zum Einkaufen ins Einkaufszentrum",
+        "p": 50
+      },
+      {
+        "a": "Ich kaufe meine Sachen online ein",
+        "p": 30
+      }
+    ]
+  },
+  "4": {
+    "0": [
+      {
+        "a": "Ich verbringe meine Freizeit mit Freunden",
+        "p": 80
+      },
+      {
+        "a": "Ich verbringe meine Freizeit alleine",
+        "p": 10
+      }
+    ]
+  },
+  "5": {
+    "0": [
+      {
+        "a": "Ich treibe regelmäßig Sport",
+        "p": 65
+      },
+      {
+        "a": "Ich treibe keinen Sport",
+        "p": 5
+      }
+    ]
+  },
+  "6": {
+    "0": [
+      {
+        "a": "Ich höre Musik über Streaming-Dienste",
+        "p": 70
+      },
+      {
+        "a": "Ich kaufe meine Musik auf CD oder MP3",
+        "p": 20
+      }
+    ]
+  },
+  "7": {
+    "0": [
+      {
+        "a": "Ich spiele gerne Videospiele",
+        "p": 45
+      },
+      {
+        "a": "Ich spiele keine Videospiele",
+        "p": 5
+      }
+    ]
+  },
+  "8": {
+    "0": [
+      {
+        "a": "Ich gehe gerne ins Theater",
+        "p": 30
+      },
+      {
+        "a": "Ich gehe nicht ins Theater",
+        "p": 10
+      }
+    ]
+  }
+}
