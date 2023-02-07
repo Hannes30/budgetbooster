@@ -1,10 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Chart } from "chart.js";
+import Chart from "chart.js";
 
-const ChartComponent = (props: any) => {
+const ChartComponent = (props) => {
   const chartRef = useRef(null);
   const [moneyHistory, setMoneyHistory] = useState([]);
-
   useEffect(() => {
     if (chartRef.current) {
       new Chart(chartRef.current, {

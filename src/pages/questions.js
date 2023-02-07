@@ -5,9 +5,8 @@ import Image from "next/image";
 import Nav from "./nav";
 import OwnFooter from "./ownFooter";
 import { Chart } from "chart.js";
-const fragen: {
-  [key: string]: { [key: string]: { a: string; p: number; m: string }[] };
-} = require("../../public/fragen.json");
+import fragen from "../../public/fragen.json";
+import ChartComponent from "./ChartComponent";
 
 export default function Questions() {
   const [count, setCount] = useState(-1);
@@ -140,9 +139,10 @@ export default function Questions() {
       );
     }
   } else {
+    objToRender = <ChartComponent></ChartComponent>;
   }
 
-  function newDay(): void {
+  function newDay() {
     setMoneyHistory([...moneyHistory, money]);
     setMessageVisibillity(false);
     setCount(count + 1);
