@@ -1,9 +1,10 @@
 import qStyles from "../styles/questions.module.css";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Nav from "./nav";
 import OwnFooter from "./ownFooter";
+import { Chart } from "chart.js";
 const fragen: {
   [key: string]: { [key: string]: { a: string; p: number; m: string }[] };
 } = require("../../public/fragen.json");
@@ -17,10 +18,13 @@ export default function Questions() {
   const [moneyMovingValue, setMoneyMovingValue] = useState(0);
   const [qoption, setQoption] = useState(0);
   const [messageVisibilitty, setMessageVisibillity] = useState(false);
+  const [moneyHistory, setMoneyHistory] = useState(new Array());
+
   let vorzeichen = "";
   if (moneyMovingValue > 0) {
     vorzeichen = "+";
   }
+
   let objToRender = <></>;
   if (count == -1) {
     objToRender = (
@@ -37,7 +41,7 @@ export default function Questions() {
         </button>
       </div>
     );
-  } else if (count > -1 && count < 10) {
+  } else if (count > -1 && count < 12) {
     if (!messageVisibilitty) {
       objToRender = (
         <div className={qStyles.Wrapper}>
@@ -123,7 +127,7 @@ export default function Questions() {
           <OwnFooter></OwnFooter>
         </div>
       );
-    } else {
+    } else if (messageVisibilitty) {
       objToRender = (
         <div className={qStyles.message}>
           <div className={qStyles.messageContainer}>
@@ -136,10 +140,10 @@ export default function Questions() {
       );
     }
   } else {
-    objToRender = <div></div>;
   }
 
-  function newDay() {
+  function newDay(): void {
+    setMoneyHistory([...moneyHistory, money]);
     setMessageVisibillity(false);
     setCount(count + 1);
     setTimeout(() => {

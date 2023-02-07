@@ -30,17 +30,18 @@
   "2": {
     "0": [
       {
-        "a": "Ich gehe mit meiner Freundin ins Kino",
-        "p": 25,
-        "m": "Gute Entscheidung. Ins Kino zu gehen kann ein schöner und unterhaltsamer Abend sein."
+        "a": "Ich kaufe mir eine Topfentasche beim bäcker",
+        "p": 3,
+        "m": "Schlechte Entscheidung.Die Topfentasche schmeckt nicht unbedingt besser aber kostet mehr"
       },
       {
-        "a": "Ich gehe mit meiner Freundin ins Restaurant",
-        "p": 40,
-        "m": "Gute Entscheidung. Essen gehen kann eine gute Möglichkeit sein, Zeit miteinander zu verbringen und zu genießen."
+        "a": "Ich kaufe mir eine Topfentasche im Supermarkt",
+        "p": 1,
+        "m": "Gute Entscheidung.Die topfentasche schmeckt fast so gut und ist viel billiger"
       }
     ]
   },
+
   "3": {
     "0": [
       {
@@ -150,6 +151,34 @@
         "a": "Ich höre Musik zu Hause",
         "p": 0,
         "m": "Gute Entscheidung. Musik zu Hause zu hören kann eine entspannte und kostengünstige Möglichkeit sein, Musik zu genießen."
+      }
+    ]
+  },
+  "11": {
+    "0": [
+      {
+        "a": "Ich kaufe den battel pass in clash of clans",
+        "p": 6,
+        "m": "Schlechte Entscheidung.Mann hat zwar einen Vorteil im spiel aber einen nachteil in der Geldbörse"
+      },
+      {
+        "a": "Ich kaufe denn battel pass nicht",
+        "p": 0,
+        "m": "Gute Entscheidung.Mann hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
+      }
+    ]
+  },
+  "12": {
+    "0": [
+      {
+        "a": "Ich gehe mit meiner Freundin ins Kino",
+        "p": 25,
+        "m": "Gute Entscheidung. Ins Kino zu gehen kann ein schöner und unterhaltsamer Abend sein."
+      },
+      {
+        "a": "Ich gehe mit meiner Freundin ins Restaurant",
+        "p": 40,
+        "m": "Gute Entscheidung. Essen gehen kann eine gute Möglichkeit sein, Zeit miteinander zu verbringen und zu genießen."
       }
     ]
   }
