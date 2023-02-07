@@ -31,9 +31,9 @@ export default function Questions() {
         <div className={qStyles.tutorial}>
           Starte mit 300€ Startkapital und baue dein Vermögen täglich auf, indem
           du durch das Spiel navigierst. Das Spiel dauert 30 virtuelle Tage und
-          du erhältst täglich zusätzliche 10€. DU musst jeden Tag eine
+          du erhältst täglich zusätzliche 10€. Du musst jeden Tag eine
           entscheidung treffen wie du dein Geld ausgibst. Nicht immer ist die
-          option wo man im moment am meisten geld behält die beste ;)
+          Option wo man im Moment am meisten Geld behält die Beste ;)
         </div>
         <button className={qStyles.startGame} onClick={() => setCount(0)}>
           Starten
@@ -139,7 +139,7 @@ export default function Questions() {
       );
     }
   } else {
-    objToRender = <ChartComponent></ChartComponent>;
+    objToRender = <ChartComponent data={moneyHistory}></ChartComponent>;
   }
 
   function newDay() {
