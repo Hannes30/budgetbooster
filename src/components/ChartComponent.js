@@ -12,7 +12,7 @@ const MyChart = (props) => {
         labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
         datasets: [
           {
-            label: "Data 1",
+            label: "Geld",
             data: props.data,
             backgroundColor: ["rgba(0, 99, 132, 0.2)"],
             borderColor: ["rgba(54, 162, 235, 1)"],

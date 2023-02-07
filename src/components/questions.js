@@ -139,7 +139,14 @@ export default function Questions() {
       );
     }
   } else {
-    objToRender = <ChartComponent data={moneyHistory}></ChartComponent>;
+    objToRender = (
+      <div className={qStyles.stats}>
+        <h1>Ausgaben</h1>
+        <div className={qStyles.statsGraph}>
+          <ChartComponent data={moneyHistory}></ChartComponent>
+        </div>
+      </div>
+    );
   }
 
   function newDay() {

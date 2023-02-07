@@ -2,8 +2,8 @@ import homeStyles from "../styles/home.module.css";
 import aboutStyles from "../styles/about.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import Nav from "./nav";
-import OwnFooter from "./ownFooter";
+import Nav from "../components/nav";
+import OwnFooter from "../components/ownFooter";
 
 export default function Home() {
   return (
