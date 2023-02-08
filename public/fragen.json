@@ -73,14 +73,14 @@
   "5": {
     "0": [
       {
-        "a": "Ich kaufe mir eine Mitgliedschaft im Fitnesstudio",
+        "a": "Ich kaufe meiner Tante ein GeburtstagsGeschenk",
         "p": 40,
-        "m": "Gute Entscheidung. Auch wenn es viel kostet ist eine investition in den eigenen Körper meistens das Geld Wert"
+        "m": "Gute Entscheidung. Später oder früher zahlt es sich aus nicht geizig zu sein"
       },
       {
-        "a": "Ich treibe keinen Sport",
+        "a": "Ich kaufe meiner Tante kein GerbutstagsGeschenk",
         "p": 0,
-        "m": "Schlechte Entscheidung. Auch wenn es am anfang billiger kommt wird es sich auf einen längeren Zeitraum auzahlen in den eigenen Körper zu Investieren"
+        "m": "Schlechte Entscheidung. Später oder früher zahlt es sich aus nicht geizig zu sein"
       }
     ]
   },
@@ -140,20 +140,6 @@
       }
     ]
   },
-  "10": {
-    "0": [
-      {
-        "a": "Ich besuche ein Konzert meiner Lieblingsband",
-        "p": 40,
-        "m": "Gute Entscheidung. Ein Konzertbesuch kann ein großartiges Erlebnis sein und die Möglichkeit bieten, eine Lieblingsband live zu sehen."
-      },
-      {
-        "a": "Ich höre Musik zu Hause",
-        "p": 0,
-        "m": "Gute Entscheidung. Musik zu Hause zu hören kann eine entspannte und kostengünstige Möglichkeit sein, Musik zu genießen."
-      }
-    ]
-  },
   "11": {
     "0": [
       {
@@ -179,6 +165,34 @@
         "a": "Ich gehe mit meiner Freundin ins Restaurant",
         "p": 40,
         "m": "Gute Entscheidung. Essen gehen kann eine gute Möglichkeit sein, Zeit miteinander zu verbringen und zu genießen."
+      }
+    ]
+  },
+  "13": {
+    "0": [
+      {
+        "a": "Ich kaufe mir eine Mitgliedschaft im Fitnesstudio",
+        "p": 40,
+        "m": "Gute Entscheidung. Auch wenn es viel kostet ist eine investition in den eigenen Körper meistens das Geld Wert"
+      },
+      {
+        "a": "Ich treibe keinen Sport",
+        "p": 0,
+        "m": "Schlechte Entscheidung. Auch wenn es am anfang billiger kommt wird es sich auf einen längeren Zeitraum auzahlen in den eigenen Körper zu Investieren"
+      }
+    ]
+  },
+  "14": {
+    "0": [
+      {
+        "a": "Ich besuche ein Konzert meiner Lieblingsband",
+        "p": 40,
+        "m": "Gute Entscheidung. Ein Konzertbesuch kann ein großartiges Erlebnis sein und die Möglichkeit bieten, eine Lieblingsband live zu sehen."
+      },
+      {
+        "a": "Ich höre Musik zu Hause",
+        "p": 0,
+        "m": "Gute Entscheidung. Musik zu Hause zu hören kann eine entspannte und kostengünstige Möglichkeit sein, Musik zu genießen."
       }
     ]
   }

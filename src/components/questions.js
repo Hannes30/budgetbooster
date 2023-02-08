@@ -18,6 +18,7 @@ export default function Questions() {
   const [qoption, setQoption] = useState(0);
   const [messageVisibilitty, setMessageVisibillity] = useState(false);
   const [moneyHistory, setMoneyHistory] = useState(new Array());
+  const [chosenOptions, setChosenOption] = useState(new Array());
 
   let vorzeichen = "";
   if (moneyMovingValue > 0) {
@@ -25,7 +26,25 @@ export default function Questions() {
   }
 
   let objToRender = <></>;
-  if (count == -1) {
+  if (count == 10) {
+    let message =
+      chosenOptions[5] == 0
+        ? "Deine Tante schenkt dir eine Kerze und 80€ in bar"
+        : "Deine Tante schenkt dir nichts da du ihr auch nichts geschenkt hast";
+    objToRender = (
+      <div className={qStyles.message}>
+        <div className={qStyles.messageContainer}>
+          Es ist dein Geburtstag. {message}
+        </div>
+        <button
+          className={qStyles.messageButton}
+          onClick={() => (chosenOptions[5] == 0 ? newDay(80) : newDay(0))}
+        >
+          weiter
+        </button>
+      </div>
+    );
+  } else if (count == -1) {
     objToRender = (
       <div className={qStyles.tutorialWrapper}>
         <div className={qStyles.tutorial}>
@@ -69,6 +88,7 @@ export default function Questions() {
             <button
               onClick={() => {
                 if (clickable) {
+                  setChosenOption([...chosenOptions, 0]);
                   setQoption(0);
                   setClickable(false);
                   setMoneyMovingValue(-fragen[count][0][0]["p"]);
@@ -97,6 +117,7 @@ export default function Questions() {
             <button
               onClick={() => {
                 if (clickable) {
+                  setChosenOption([...chosenOptions, 1]);
                   setQoption(1);
                   setClickable(false);
                   setMoneyMovingValue(-fragen[count][0][1]["p"]);
@@ -132,7 +153,7 @@ export default function Questions() {
           <div className={qStyles.messageContainer}>
             {fragen[count][0][qoption]["m"]}
           </div>
-          <button className={qStyles.messageButton} onClick={() => newDay()}>
+          <button className={qStyles.messageButton} onClick={() => newDay(10)}>
             weiter
           </button>
         </div>
@@ -147,19 +168,25 @@ export default function Questions() {
         </div>
       </div>
     );
+    let message = "[";
+    moneyHistory.forEach((e) => {
+      message += "" + e + ",";
+    });
+    message += "]";
+    console.log(message); 
   }
 
-  function newDay() {
+  function newDay(moneyAmount) {
     setMoneyHistory([...moneyHistory, money]);
     setMessageVisibillity(false);
     setCount(count + 1);
     setTimeout(() => {
-      setMoneyMovingValue(10);
+      setMoneyMovingValue(moneyAmount);
       setMoneyMoving(true);
     }, 250);
     setTimeout(() => {
       setMoneyMoving(false);
-      setMoney(money - fragen[count][0][qoption]["p"] + 10);
+      setMoney(money + moneyAmount);
       setClickable(true);
     }, 500);
   }
