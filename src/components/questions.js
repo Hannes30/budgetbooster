@@ -19,7 +19,7 @@ export default function Questions() {
   const [messageVisibilitty, setMessageVisibillity] = useState(false);
   const [moneyHistory, setMoneyHistory] = useState(new Array());
   const [chosenOptions, setChosenOption] = useState(new Array());
-
+  console.log(chosenOptions);
   let vorzeichen = "";
   if (moneyMovingValue > 0) {
     vorzeichen = "+";
@@ -44,6 +44,22 @@ export default function Questions() {
         </button>
       </div>
     );
+  } else if (count == 15) {
+    if (chosenOptions[10] == 0) {
+      objToRender = (
+        <div className={qStyles.message}>
+          <div className={qStyles.messageContainer}>
+            Durch dein erlangtes Wissen aus den 2 Büchern die du dir an tag 11
+            gekauft hast hast du 50 euro verdient
+          </div>
+          <button className={qStyles.messageButton} onClick={() => newDay(50)}>
+            weiter
+          </button>
+        </div>
+      );
+    } else {
+      newDay(0);
+    }
   } else if (count == -1) {
     objToRender = (
       <div className={qStyles.tutorialWrapper}>
@@ -59,7 +75,7 @@ export default function Questions() {
         </button>
       </div>
     );
-  } else if (count > -1 && count < 12) {
+  } else if (count > -1 && count < 17) {
     if (!messageVisibilitty) {
       objToRender = (
         <div className={qStyles.Wrapper}>
@@ -173,7 +189,7 @@ export default function Questions() {
       message += "" + e + ",";
     });
     message += "]";
-    console.log(message); 
+    console.log(message);
   }
 
   function newDay(moneyAmount) {

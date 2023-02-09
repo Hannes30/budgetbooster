@@ -143,14 +143,14 @@
   "11": {
     "0": [
       {
-        "a": "Ich kaufe den battel pass in clash of clans",
-        "p": 6,
-        "m": "Schlechte Entscheidung.Mann hat zwar einen Vorteil im spiel aber einen nachteil in der Geldbörse"
+        "a": "Ich kaufe mir 2 Bücher",
+        "p": 20,
+        "m": "Gute Entscheidung. Das Return of investment ist bei bildung immer sehr hoch"
       },
       {
-        "a": "Ich kaufe denn battel pass nicht",
+        "a": "Ich kaufe mir keine Bücher",
         "p": 0,
-        "m": "Gute Entscheidung.Mann hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
+        "m": "Schlechte Entscheidung. Das Return of investment ist bei bildung immer sehr hoch"
       }
     ]
   },
@@ -193,6 +193,20 @@
         "a": "Ich höre Musik zu Hause",
         "p": 0,
         "m": "Gute Entscheidung. Musik zu Hause zu hören kann eine entspannte und kostengünstige Möglichkeit sein, Musik zu genießen."
+      }
+    ]
+  },
+  "16": {
+    "0": [
+      {
+        "a": "Ich kaufe den battel pass in clash of clans",
+        "p": 6,
+        "m": "Schlechte Entscheidung.Mann hat zwar einen Vorteil im spiel aber einen nachteil in der Geldbörse"
+      },
+      {
+        "a": "Ich kaufe denn battel pass nicht",
+        "p": 0,
+        "m": "Gute Entscheidung.Mann hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
       }
     ]
   }
