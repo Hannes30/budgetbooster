@@ -75,7 +75,7 @@ export default function Questions() {
         </button>
       </div>
     );
-  } else if (count > -1 && count < 17) {
+  } else if (count > -1 && count < 20) {
     if (!messageVisibilitty) {
       objToRender = (
         <div className={qStyles.Wrapper}>

@@ -209,5 +209,61 @@
         "m": "Gute Entscheidung.Mann hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
       }
     ]
+  },
+  "17": {
+    "0": [
+      {
+        "a": "Ich kaufe mir ein neues Handy",
+        "p": 200,
+        "m": "Schlechte Entscheidung.Es ist besser auf sein altes Handy gut aufzupassen anstatt sich immer ein neues zu kaufen"
+      },
+      {
+        "a": "Ich behalte mein altes",
+        "p": 0,
+        "m": "Gute Entscheidung.Es ist besser auf sein altes Handy gut aufzupassen anstatt sich immer ein neues zu kaufen"
+      }
+    ]
+  },
+  "18": {
+    "0": [
+      {
+        "a": "Ich kaufe mir Disney+,Netflix,Crunchyroll und ",
+        "p": 10,
+        "m": "Schlechte Entscheidung. Viele Streaming diesnte kosten viel und kosten auch jeden Monat etwas. Am besten wäre es einen dienst auszunützen kündigen und dann den nächsten kaufen."
+      },
+      {
+        "a": "Ich kaufe mir nur zugang zu einen Streamingdienst",
+        "p": 0,
+        "m": "Gute Entscheidung.Nutze diesen Dienst so gut aus wie es geht und wenn es keinen spaß mehr macht kündige und abboniere einen anderen"
+      }
+    ]
+  },
+  "19": {
+    "0": [
+      {
+        "a": "Ich kaufe mir neue Schuhe auf StockX",
+        "p": 250,
+        "m": "Schlechte Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
+      },
+      {
+        "a": "Ich kaufe Schuhe die gerade offiziel verfügbar sind",
+        "p": 65,
+        "m": "Gute Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
+      }
+    ]
+  },
+  "20": {
+    "0": [
+      {
+        "a": "Ich tune mein Moped",
+        "p": 100,
+        "m": "Schlechte Entscheidung.Moped tunen ist sehr zeitaufwendig und frisst sehr viel Geld."
+      },
+      {
+        "a": "Ich tune mein Moped nicht",
+        "p": 0,
+        "m": "Gute Entscheidung.Moped tunen ist sehr zeitaufwendig und frisst sehr viel Geld."
+      }
+    ]
   }
 }
