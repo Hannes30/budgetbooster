@@ -1,17 +1,57 @@
 {
   "0": {
-    "name": "Schuhe1",
+    "name": "Nike Schuhe",
     "emoji": "👟",
-    "price": 1000
+    "price": 120
   },
   "1": {
-    "name": "Schuhe2",
-    "emoji": "👟",
-    "price": 400
+    "name": "Airpods",
+    "emoji": "🎧",
+    "price": 200
   },
   "2": {
-    "name": "Schuhe3",
-    "emoji": "👟",
+    "name": "T-Shirt",
+    "emoji": "👕",
+    "price": 20
+  },
+  "3": {
+    "name": "Gaming-Laptop",
+    "emoji": "💻",
+    "price": 1500
+  },
+  "4": {
+    "name": "Playstation 5",
+    "emoji": "🎮",
+    "price": 400
+  },
+  "5": {
+    "name": "Smartwatch",
+    "emoji": "⌚️",
+    "price": 300
+  },
+  "6": {
+    "name": "Fitness-Tracker",
+    "emoji": "💪",
+    "price": 150
+  },
+  "7": {
+    "name": "Handy",
+    "emoji": "📱",
+    "price": 1000
+  },
+  "8": {
+    "name": "Bluetooth-Lautsprecher",
+    "emoji": "🔊",
     "price": 100
+  },
+  "9": {
+    "name": "Kopfhörer",
+    "emoji": "🎧",
+    "price": 80
+  },
+  "10": {
+    "name": "Powerbank",
+    "emoji": "🔋",
+    "price": 30
   }
 }

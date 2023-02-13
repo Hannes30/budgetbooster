@@ -139,9 +139,10 @@
   flex-wrap: nowrap;
   width: min-content;
   position: relative;
-  margin-right: 35px;
+  margin-right: 10px;
   font-size: 40px;
   font-weight: 400;
+  width: 180px;
 }
 .greenSpan {
   font-size: 48px;
@@ -199,9 +200,8 @@
 }
 .statsGraph {
 }
-.cbuyemoji {
-}
 .cbuyname {
+  width: 50vw;
 }
 
 .cbuy {

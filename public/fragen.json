@@ -4,12 +4,14 @@
       {
         "a": "Ich trinke nach der Schule meinen Kaffee bei Starbucks",
         "p": 5,
-        "m": "Schlechte Entscheidung. Regelmäßiger Kauf von teurem Café-Kaffee führt zu höheren Kosten im Vergleich zur Zubereitung von Kaffee zu Hause, was günstiger ist."
+        "m": "Schlechte Entscheidung. Regelmäßiger Kauf von teurem Kaffee führt zu höheren Kosten im Vergleich zur Zubereitung von Kaffee zu Hause, was günstiger ist.",
+        "e": "🧨"
       },
       {
-        "a": "Ich mache mir daheim einen Kaffe mit der Kaffe Maschine",
+        "a": "Ich mache mir zu Hause einen Kaffee mit der Kaffeemaschine",
         "p": 1,
-        "m": "Gute Entscheidung. Es reduziert den Kosteneinsatz, da man den Kaffee zu einem günstigeren Preis kaufen und zu Hause zubereiten kann."
+        "m": "Gute Entscheidung. Es reduziert den Kosteneinsatz, da man den Kaffee zu einem günstigeren Preis kaufen und zu Hause zubereiten kann.",
+        "e": "🧨"
       }
     ]
   },
@@ -30,14 +32,14 @@
   "2": {
     "0": [
       {
-        "a": "Ich kaufe mir eine Topfentasche beim bäcker",
+        "a": "Ich kaufe mir eine Topfentasche beim Bäcker",
         "p": 3,
-        "m": "Schlechte Entscheidung.Die Topfentasche schmeckt nicht unbedingt besser aber kostet mehr"
+        "m": "Schlechte Entscheidung. Die Topfentasche schmeckt nicht unbedingt besser, aber kostet mehr."
       },
       {
         "a": "Ich kaufe mir eine Topfentasche im Supermarkt",
         "p": 1,
-        "m": "Gute Entscheidung.Die topfentasche schmeckt fast so gut und ist viel billiger"
+        "m": "Gute Entscheidung. Die Topfentasche schmeckt fast so gut und ist viel billiger."
       }
     ]
   },
@@ -47,26 +49,26 @@
       {
         "a": "Ich gehe zum Einkaufen ins Einkaufszentrum",
         "p": 40,
-        "m": "Gute Entscheidung. Einkaufen im Einkaufszentrum kann eine gute Möglichkeit sein, um verschiedene Produkte zu sehen und zu vergleichen."
+        "m": "Gute Entscheidung.Es ist zwar teurer aber unterstütz die lokalen Händler"
       },
       {
         "a": "Ich kaufe meine Sachen online ein",
         "p": 20,
-        "m": "Gute Entscheidung. Online-Einkauf kann bequem sein und es gibt eine größere Auswahl an Produkten zur Verfügung."
+        "m": "Gute Entscheidung. Einkaufen im Einkaufszentrum kann eine gute Möglichkeit sein, um verschiedene Produkte zu sehen und zu vergleichen."
       }
     ]
   },
   "4": {
     "0": [
       {
-        "a": "Ich verbringe meine Freizeit mit Freunden und gehe Feiern",
-        "p": 30,
-        "m": "Gute Entscheidung. Verbringen Sie Zeit mit Freunden und gehen Sie aus, um soziale Kontakte zu knüpfen und neue Erfahrungen zu sammeln."
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessen in aktion",
+        "p": 10,
+        "m": "Gute Entscheidung. Es ist klüger, Lebensmittel im Aktionsangebot zu kaufen, da man dabei häufig Geld sparen und gleichzeitig die Möglichkeit haben kann, eine größere Menge an Lebensmitteln für den gleichen Preis zu erwerben."
       },
       {
-        "a": "Ich verbringe meine Freizeit alleine",
-        "p": 0,
-        "m": "Gute Entscheidung. Verbringen Sie Zeit alleine, um sich zu erholen und neue Energie zu tanken."
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessen ohne aktion",
+        "p": 20,
+        "m": "Schlechte Entscheidung. Es ist klüger, Lebensmittel im Aktionsangebot zu kaufen, da man dabei häufig Geld sparen und gleichzeitig die Möglichkeit haben kann, eine größere Menge an Lebensmitteln für den gleichen Preis zu erwerben."
       }
     ]
   },
@@ -75,7 +77,7 @@
       {
         "a": "Ich kaufe meiner Tante ein GeburtstagsGeschenk",
         "p": 40,
-        "m": "Gute Entscheidung. Später oder früher zahlt es sich aus nicht geizig zu sein"
+        "m": "Gute Entscheidung. Später oder früher zahlt es sich aus, nicht geizig zu sein."
       },
       {
         "a": "Ich kaufe meiner Tante kein GerbutstagsGeschenk",

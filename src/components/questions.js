@@ -10,6 +10,7 @@ import itemsBuy from "../../public/items.json";
 import ChartComponent from "./ChartComponent";
 
 export default function Questions() {
+  console.log(fragen);
   const [count, setCount] = useState(-1);
   const [clickable, setClickable] = useState(true);
   const [money, setMoney] = useState(300);
@@ -26,6 +27,9 @@ export default function Questions() {
   }
 
   let objToRender = <></>;
+  if (count == 31) {
+    let objToRender = <div className={qStyles.Wrapper}> Hallo</div>;
+  }
   if (count == 10) {
     let message =
       chosenOptions[5] == 0
@@ -75,13 +79,13 @@ export default function Questions() {
         </button>
       </div>
     );
-  } else if (count > -1 && count < 20) {
+  } else if (count > -1 && count < Object.keys(fragen).length + 1) {
     if (!messageVisibilitty) {
       objToRender = (
         <div className={qStyles.Wrapper}>
           <div className={qStyles.moneyDisplayParent}>
             <div className={qStyles.dayDisplay}>
-              <span className={qStyles.greenSpan}>{count + 1}</span>
+              <span className={qStyles.greenSpan}>Tag {count + 1}</span>
             </div>
             <div className={qStyles.moneyDisplay}>
               {money}€ {moneyMoving}
@@ -187,25 +191,32 @@ export default function Questions() {
         <div className={qStyles.itemsBuy}>
           <h1>Dinge die du dir jetzt kaufen kannst</h1>
           <div className={qStyles.cbuyContainer}>
-            {Object.entries(itemsBuy).map((item, index) => (
-              <div className={qStyles.cbuy}>
-                <div className={qStyles.cbuyname}>
-                  {item[1]["emoji"] + "       " + item[1]["name"]}
+            {Object.entries(itemsBuy)
+              .sort((a, b) => {
+                return a[1].price - b[1].price;
+              })
+              .map((item, index) => (
+                <div className={qStyles.cbuy}>
+                  <div className={qStyles.cbuyname}>
+                    {item[1]["emoji"] + "       " + item[1]["name"]}
+                  </div>
+                  {console.log(item[1]["price"] > money)}
+                  <div
+                    className={
+                      qStyles.cbuyprice +
+                      " " +
+                      (item[1]["price"] > money ? qStyles.red : qStyles.green)
+                    }
+                  >
+                    {item[1]["price"]}
+                  </div>
                 </div>
-                {console.log(item[1]["price"] > money)}
-                <div
-                  className={
-                    qStyles.cbuyprice +
-                    " " +
-                    (item[1]["price"] > money ? qStyles.red : qStyles.green)
-                  }
-                >
-                  {item[1]["price"]}
-                </div>
-              </div>
-            ))}
+              ))}
           </div>
         </div>
+        <button className={qStyles.startGame} onClick={() => setCount(31)}>
+          Vergleichen
+        </button>
       </div>
     );
     let message = "[";

@@ -15,7 +15,7 @@ const MyChart = (props) => {
           {
             label: "Du",
             data: props.data,
-            backgroundColor: ["rgba(0, 99, 132, 0.2)"],
+            backgroundColor: ["rgba(54, 162, 235, .33)"],
             borderColor: ["rgba(54, 162, 235, 1)"],
           },
           {
@@ -24,7 +24,7 @@ const MyChart = (props) => {
               299, 309, 318, 308, 318, 288, 296, 306, 286, 296, 306, 366, 351,
               361, 371, 381, 431, 441, 441, 386,
             ],
-            backgroundColor: ["rgba(0, 132, 0, 0.2)"],
+            backgroundColor: ["rgba(54, 235, 0, .33)"],
             borderColor: ["rgba(54, 235, 0, 1)"],
           },
           {
@@ -33,8 +33,8 @@ const MyChart = (props) => {
               295, 298, 305, 275, 255, 265, 265, 255, 195, 175, 185, 185, 155,
               125, 95, 95, 89, -101, -131, -371,
             ],
-            backgroundColor: ["rgba(0, 132, 0, 0.2)"],
-            borderColor: ["rgba(235, 100, 0, 1)"],
+            backgroundColor: ["rgba(235, 50, 0, .33)"],
+            borderColor: ["rgba(235, 50, 0, 1)"],
           },
         ],
       },
