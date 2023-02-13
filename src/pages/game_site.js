@@ -10,6 +10,7 @@ export default function Home() {
     <div>
       <Nav />
       <Questions></Questions>
+      <OwnFooter></OwnFooter>
     </div>
   );
 }

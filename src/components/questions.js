@@ -6,6 +6,7 @@ import Nav from "./nav";
 import OwnFooter from "./ownFooter";
 import { Chart } from "chart.js";
 import fragen from "../../public/fragen.json";
+import itemsBuy from "../../public/items.json";
 import ChartComponent from "./ChartComponent";
 
 export default function Questions() {
@@ -19,7 +20,6 @@ export default function Questions() {
   const [messageVisibilitty, setMessageVisibillity] = useState(false);
   const [moneyHistory, setMoneyHistory] = useState(new Array());
   const [chosenOptions, setChosenOption] = useState(new Array());
-  console.log(chosenOptions);
   let vorzeichen = "";
   if (moneyMovingValue > 0) {
     vorzeichen = "+";
@@ -160,7 +160,6 @@ export default function Questions() {
               <div className={qStyles.price}>{fragen[count][0][1]["p"]}€</div>
             </button>
           </div>
-          <OwnFooter></OwnFooter>
         </div>
       );
     } else if (messageVisibilitty) {
@@ -179,8 +178,33 @@ export default function Questions() {
     objToRender = (
       <div className={qStyles.stats}>
         <h1>Ausgaben</h1>
-        <div className={qStyles.statsGraph}>
-          <ChartComponent data={moneyHistory}></ChartComponent>
+        <div className={qStyles.statsGraphContainer}>
+          <ChartComponent
+            data={moneyHistory}
+            className={qStyles.statsGraph}
+          ></ChartComponent>
+        </div>
+        <div className={qStyles.itemsBuy}>
+          <h1>Dinge die du dir jetzt kaufen kannst</h1>
+          <div className={qStyles.cbuyContainer}>
+            {Object.entries(itemsBuy).map((item, index) => (
+              <div className={qStyles.cbuy}>
+                <div className={qStyles.cbuyname}>
+                  {item[1]["emoji"] + "       " + item[1]["name"]}
+                </div>
+                {console.log(item[1]["price"] > money)}
+                <div
+                  className={
+                    qStyles.cbuyprice +
+                    " " +
+                    (item[1]["price"] > money ? qStyles.red : qStyles.green)
+                  }
+                >
+                  {item[1]["price"]}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     );
@@ -189,7 +213,6 @@ export default function Questions() {
       message += "" + e + ",";
     });
     message += "]";
-    console.log(message);
   }
 
   function newDay(moneyAmount) {

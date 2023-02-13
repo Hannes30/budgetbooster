@@ -1,0 +1,17 @@
+{
+  "0": {
+    "name": "Schuhe1",
+    "emoji": "👟",
+    "price": 1000
+  },
+  "1": {
+    "name": "Schuhe2",
+    "emoji": "👟",
+    "price": 400
+  },
+  "2": {
+    "name": "Schuhe3",
+    "emoji": "👟",
+    "price": 100
+  }
+}
