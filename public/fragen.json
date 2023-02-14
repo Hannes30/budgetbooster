@@ -103,13 +103,13 @@
   "7": {
     "0": [
       {
-        "a": "Ich kauf mir ein neues Videospiel",
-        "p": 20,
+        "a": "Ich kauf mir ein neues Videospiel beim herstelle",
+        "p": 70,
         "m": "Schlechte Entscheidung. Auch wenn ein neues Spiel interessant klingt wird es nach der Zeit auch wieder langweilig und es gibt bereits schon viele Spiele die Kostenlos sind und Spaß"
       },
       {
-        "a": "Ich verzichte auf Das Spiel",
-        "p": 0,
+        "a": "Ich kaufe mir ein Spiel bei einen Drittanbieter",
+        "p": 20,
         "m": "Gute Entscheidung. Es gibt bereits viele Kostenlose Spiele die mit Freunden und alleine viel Spaß machen"
       }
     ]
@@ -265,6 +265,34 @@
         "a": "Ich tune mein Moped nicht",
         "p": 0,
         "m": "Gute Entscheidung.Moped tunen ist sehr zeitaufwendig und frisst sehr viel Geld."
+      }
+    ]
+  },
+  "21": {
+    "0": [
+      {
+        "a": "Ich kaufe mir Fast Food(3tage)",
+        "p": 60,
+        "m": "Schlechte Entscheidung.Fast food ist nicht billiger und macht weniger satt"
+      },
+      {
+        "a": "Ich kaufe mir Lebensmittel und koche zuhause (3tage)",
+        "p": 25,
+        "m": "Gute Entscheidung.Du bist satt für den ganzen Tag"
+      }
+    ]
+  },
+  "22": {
+    "0": [
+      {
+        "a": "furt",
+        "p": 20,
+        "m": "Schlechte Entscheidung.Du hast am danach wieder Hunger und kaufst nochmal fast food(20€)"
+      },
+      {
+        "a": "Ich kaufe mir Lebensmittel und koche zuhause",
+        "p": 25,
+        "m": "Gute Entscheidung.Du bist satt für den ganzen Tag"
       }
     ]
   }

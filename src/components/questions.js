@@ -10,7 +10,6 @@ import itemsBuy from "../../public/items.json";
 import ChartComponent from "./ChartComponent";
 
 export default function Questions() {
-  console.log(fragen);
   const [count, setCount] = useState(-1);
   const [clickable, setClickable] = useState(true);
   const [money, setMoney] = useState(300);
@@ -27,6 +26,11 @@ export default function Questions() {
   }
 
   let objToRender = <></>;
+  if (count == 21 && chosenOptions[21] == 0) {
+    newDay(-20);
+  } else if (count == 20) {
+    newDay(0);
+  }
   if (count == 31) {
     let objToRender = <div className={qStyles.Wrapper}> Hallo</div>;
   }
@@ -79,7 +83,7 @@ export default function Questions() {
         </button>
       </div>
     );
-  } else if (count > -1 && count < Object.keys(fragen).length + 1) {
+  } else if (count > -1 && count < Object.keys(fragen).length + 2) {
     if (!messageVisibilitty) {
       objToRender = (
         <div className={qStyles.Wrapper}>
@@ -200,7 +204,6 @@ export default function Questions() {
                   <div className={qStyles.cbuyname}>
                     {item[1]["emoji"] + "       " + item[1]["name"]}
                   </div>
-                  {console.log(item[1]["price"] > money)}
                   <div
                     className={
                       qStyles.cbuyprice +
