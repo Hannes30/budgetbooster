@@ -32,9 +32,12 @@ export default function Questions() {
     newDay(0);
   }
   if (count == 31) {
-    let objToRender = <div className={qStyles.Wrapper}> Hallo</div>;
-  }
-  if (count == 10) {
+    objToRender = (
+      <div className={qStyles.Wrapper}>
+        <div className={qStyles.comparing}></div>
+      </div>
+    );
+  } else if (count == 10) {
     let message =
       chosenOptions[5] == 0
         ? "Deine Tante schenkt dir eine Kerze und 80€ in bar"
@@ -85,6 +88,10 @@ export default function Questions() {
     );
   } else if (count > -1 && count < Object.keys(fragen).length + 2) {
     if (!messageVisibilitty) {
+      if (money < 0) {
+        setMoney(0);
+        setCount(30);
+      }
       objToRender = (
         <div className={qStyles.Wrapper}>
           <div className={qStyles.moneyDisplayParent}>

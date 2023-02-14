@@ -229,3 +229,6 @@
 .mgTop {
   margin-top: 10px;
 }
+.comparing {
+  min-height: 100vh;
+}
