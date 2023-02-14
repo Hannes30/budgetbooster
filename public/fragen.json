@@ -246,8 +246,8 @@
         "m": "Schlechte Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
       },
       {
-        "a": "Ich kaufe Schuhe die gerade offiziel verfügbar sind",
-        "p": 65,
+        "a": "Ich kaufe mir Schuhe sobald sie wieder verfügbar sind",
+        "p": 120,
         "m": "Gute Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
       }
     ]
@@ -256,7 +256,7 @@
     "0": [
       {
         "a": "Ich tune mein Moped",
-        "p": 100,
+        "p": 50,
         "m": "Schlechte Entscheidung.Moped tunen ist sehr zeitaufwendig und frisst sehr viel Geld."
       },
       {
@@ -270,12 +270,12 @@
     "0": [
       {
         "a": "Ich kaufe mir Fast Food(3tage)",
-        "p": 60,
+        "p": 40,
         "m": "Schlechte Entscheidung.Fast food ist nicht billiger und macht weniger satt"
       },
       {
         "a": "Ich kaufe mir Lebensmittel und koche zuhause (3tage)",
-        "p": 25,
+        "p": 15,
         "m": "Gute Entscheidung.Du bist satt für den ganzen Tag"
       }
     ]
@@ -291,6 +291,34 @@
         "a": "Ich kaufe mir keine snus",
         "p": 0,
         "m": "Gute Entscheidung.Du behaltest jede Woche 20€ dadurch"
+      }
+    ]
+  },
+  "23": {
+    "0": [
+      {
+        "a": "Ich kaufe mir einen rießigen Teddybär",
+        "p": 40,
+        "m": "Schlechte Entscheidung.Warum würdest du einen rießigen Teddybär brauchen? "
+      },
+      {
+        "a": "Ich kauf mir einen normalen Teddybär",
+        "p": 20,
+        "m": "Gute Entscheidung.Warum würdest du einen rießigen Teddybär brauchen?"
+      }
+    ]
+  },
+  "24": {
+    "0": [
+      {
+        "a": "Ich gehe Shisha Rauchen mit Freunden",
+        "p": 25,
+        "m": "Schlechte Entscheidung.Nicht so schlimm wie Zigaretten aber trotzdem teuer"
+      },
+      {
+        "a": "Ich gehe nicht Shisha Rauchen mit Freunden",
+        "p": 0,
+        "m": "Gute Entscheidung."
       }
     ]
   }

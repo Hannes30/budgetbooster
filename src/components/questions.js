@@ -12,7 +12,7 @@ import ChartComponent from "./ChartComponent";
 export default function Questions() {
   const [count, setCount] = useState(-1);
   const [clickable, setClickable] = useState(true);
-  const [money, setMoney] = useState(300);
+  const [money, setMoney] = useState(500);
   const [front, setFront] = useState(1);
   const [moneyMoving, setMoneyMoving] = useState(false);
   const [moneyMovingValue, setMoneyMovingValue] = useState(0);
@@ -25,9 +25,6 @@ export default function Questions() {
     vorzeichen = "+";
   }
 
-  if (money < 0) {
-    setCount(30);
-  }
   let objToRender = <></>;
   if (count == 21 && chosenOptions[21] == 0) {
     newDay(-20);
@@ -75,9 +72,9 @@ export default function Questions() {
     objToRender = (
       <div className={qStyles.tutorialWrapper}>
         <div className={qStyles.tutorial}>
-          Starte mit 300€ Startkapital und baue dein Vermögen täglich auf, indem
-          du durch das Spiel navigierst. Das Spiel dauert 30 virtuelle Tage und
-          du erhältst täglich zusätzliche 10€. Du musst jeden Tag eine
+          Starte mit {money}€ Startkapital und baue dein Vermögen täglich auf,
+          indem du durch das Spiel navigierst. Das Spiel dauert 30 virtuelle
+          Tage und du erhältst täglich zusätzliche 10€. Du musst jeden Tag eine
           entscheidung treffen wie du dein Geld ausgibst. Nicht immer ist die
           Option wo man im Moment am meisten Geld behält die Beste ;)
         </div>
