@@ -25,6 +25,9 @@ export default function Questions() {
     vorzeichen = "+";
   }
 
+  if (money < 0) {
+    setCount(30);
+  }
   let objToRender = <></>;
   if (count == 21 && chosenOptions[21] == 0) {
     newDay(-20);
@@ -89,7 +92,8 @@ export default function Questions() {
         <div className={qStyles.Wrapper}>
           <div className={qStyles.moneyDisplayParent}>
             <div className={qStyles.dayDisplay}>
-              <span className={qStyles.greenSpan}>Tag {count + 1}</span>
+              Tag
+              <span className={qStyles.greenSpan}> {count + 1}</span>
             </div>
             <div className={qStyles.moneyDisplay}>
               {money}€ {moneyMoving}
@@ -193,7 +197,7 @@ export default function Questions() {
           ></ChartComponent>
         </div>
         <div className={qStyles.itemsBuy}>
-          <h1>Dinge die du dir jetzt kaufen kannst</h1>
+          <h1>Dinge die du dir jetzt Leisten kannst</h1>
           <div className={qStyles.cbuyContainer}>
             {Object.entries(itemsBuy)
               .sort((a, b) => {
@@ -217,7 +221,10 @@ export default function Questions() {
               ))}
           </div>
         </div>
-        <button className={qStyles.startGame} onClick={() => setCount(31)}>
+        <button
+          className={qStyles.startGame + " " + qStyles.mgTop}
+          onClick={() => setCount(31)}
+        >
           Vergleichen
         </button>
       </div>

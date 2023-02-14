@@ -285,14 +285,14 @@
   "22": {
     "0": [
       {
-        "a": "furt",
+        "a": "Ich kaufe mir 5 snus Packungen",
         "p": 20,
-        "m": "Schlechte Entscheidung.Du hast am danach wieder Hunger und kaufst nochmal fast food(20€)"
+        "m": "Schlechte Entscheidung.Genau wie Zigaretten kosten sie jede Woche Geld"
       },
       {
-        "a": "Ich kaufe mir Lebensmittel und koche zuhause",
-        "p": 25,
-        "m": "Gute Entscheidung.Du bist satt für den ganzen Tag"
+        "a": "Ich kaufe mir keine snus",
+        "p": 0,
+        "m": "Gute Entscheidung.Du behaltest jede Woche 20€ dadurch"
       }
     ]
   }
