@@ -20,7 +20,7 @@ export default function Nav() {
           </Link>
         </div>
         <div className={navStyles.item}>
-          <Link className={navStyles.a} href={"./game_site"}>
+          <Link className={navStyles.a} href={"./game"}>
             <Image
               src="/images/controller.png"
               className={navStyles.icon}

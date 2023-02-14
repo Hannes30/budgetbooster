@@ -54,7 +54,7 @@
   font-size: 24px;
   padding: 30px;
   width: 90vw;
-  background-color: #ededed;
+  background: linear-gradient(90deg, #bddee0, #bbf1ba);
   height: min-content;
   border-radius: 10px;
   margin: 20px;
@@ -158,7 +158,7 @@
   height: 100vh;
 }
 .messageContainer {
-  background-color: #ededed;
+  background: linear-gradient(90deg, #bddee0, #bbf1ba);
   padding: 2vw;
   border-radius: 10px;
   width: 90vw;
