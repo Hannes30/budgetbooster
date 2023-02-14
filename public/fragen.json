@@ -4,14 +4,12 @@
       {
         "a": "Ich trinke nach der Schule meinen Kaffee bei Starbucks",
         "p": 5,
-        "m": "Schlechte Entscheidung. Regelmäßiger Kauf von teurem Kaffee führt zu höheren Kosten im Vergleich zur Zubereitung von Kaffee zu Hause, was günstiger ist.",
-        "e": "🧨"
+        "m": "Schlechte Entscheidung. Regelmäßiger Kauf von teurem Kaffee führt zu höheren Kosten im Vergleich zur Zubereitung von Kaffee zu Hause, was günstiger ist."
       },
       {
         "a": "Ich mache mir zu Hause einen Kaffee mit der Kaffeemaschine",
         "p": 1,
-        "m": "Gute Entscheidung. Es reduziert den Kosteneinsatz, da man den Kaffee zu einem günstigeren Preis kaufen und zu Hause zubereiten kann.",
-        "e": "🧨"
+        "m": "Gute Entscheidung. Es reduziert den Kosteneinsatz, da man den Kaffee zu einem günstigeren Preis kaufen und zu Hause zubereiten kann."
       }
     ]
   },
