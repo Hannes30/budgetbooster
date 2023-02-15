@@ -5,13 +5,11 @@ import Image from "next/image";
 import Nav from "./nav";
 import OwnFooter from "./ownFooter";
 import { Chart } from "chart.js";
-import fragen from "../../public/fragen.json";
 import itemsBuy from "../../public/items.json";
 import ChartComponent from "./ChartComponent";
+import Comparison from "./comparison";
 
 export default function Questions() {
-  let fragen1 = getquestions();
-  console.log(fragen1);
   const [count, setCount] = useState(-1);
   const [clickable, setClickable] = useState(true);
   const [money, setMoney] = useState(500);
@@ -22,6 +20,21 @@ export default function Questions() {
   const [messageVisibilitty, setMessageVisibillity] = useState(false);
   const [moneyHistory, setMoneyHistory] = useState(new Array());
   const [chosenOptions, setChosenOption] = useState(new Array());
+  const [questions, setQuestions] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      const data = await getQuestions();
+      setQuestions(data);
+    }
+    fetchData();
+  }, []);
+
+  async function getQuestions() {
+    const response = await fetch("/api/fragen");
+    const data = await response.json();
+    return data;
+  }
   let vorzeichen = "";
   if (moneyMovingValue > 0) {
     vorzeichen = "+";
@@ -34,11 +47,7 @@ export default function Questions() {
     newDay(0);
   }
   if (count == 31) {
-    objToRender = (
-      <div className={qStyles.Wrapper}>
-        <div className={qStyles.comparing}></div>
-      </div>
-    );
+    objToRender = <Comparison data={moneyHistory} money={money}></Comparison>;
   } else if (count == 10) {
     let message =
       chosenOptions[5] == 0
@@ -80,7 +89,7 @@ export default function Questions() {
           Starte mit {money}€ Startkapital und baue dein Vermögen täglich auf,
           indem du durch das Spiel navigierst. Das Spiel dauert 30 virtuelle
           Tage und du erhältst täglich zusätzliche 10€. Du musst jeden Tag eine
-          entscheidung treffen wie du dein Geld ausgibst. Nicht immer ist die
+          Entscheidung treffen wie du dein Geld ausgibst. Nicht immer ist die
           Option wo man im Moment am meisten Geld behält die Beste ;)
         </div>
         <button className={qStyles.startGame} onClick={() => setCount(0)}>
@@ -88,7 +97,7 @@ export default function Questions() {
         </button>
       </div>
     );
-  } else if (count > -1 && count < Object.keys(fragen).length + 2) {
+  } else if (count > -1 && count < Object.keys(questions).length + 2) {
     if (!messageVisibilitty) {
       if (money < 0) {
         setMoney(0);
@@ -125,10 +134,10 @@ export default function Questions() {
                   setChosenOption([...chosenOptions, 0]);
                   setQoption(0);
                   setClickable(false);
-                  setMoneyMovingValue(-fragen[count][0][0]["p"]);
+                  setMoneyMovingValue(-questions[count][0][0]["p"]);
                   setMoneyMoving(true);
                   setTimeout(() => {
-                    setMoney(money - fragen[count][0][0]["p"]);
+                    setMoney(money - questions[count][0][0]["p"]);
                     setMoneyMoving(false);
                     setMessageVisibillity(true);
                   }, 500);
@@ -144,9 +153,11 @@ export default function Questions() {
               onMouseOver={() => setFront(2)}
             >
               <div className={qStyles.question1}>
-                {fragen[count][0][0]["a"]}
+                {questions[count][0][0]["a"]}
               </div>
-              <div className={qStyles.price}>{fragen[count][0][0]["p"]}€</div>
+              <div className={qStyles.price}>
+                {questions[count][0][0]["p"]}€
+              </div>
             </button>
             <button
               onClick={() => {
@@ -154,10 +165,10 @@ export default function Questions() {
                   setChosenOption([...chosenOptions, 1]);
                   setQoption(1);
                   setClickable(false);
-                  setMoneyMovingValue(-fragen[count][0][1]["p"]);
+                  setMoneyMovingValue(-questions[count][0][1]["p"]);
                   setMoneyMoving(true);
                   setTimeout(() => {
-                    setMoney(money - fragen[count][0][1]["p"]);
+                    setMoney(money - questions[count][0][1]["p"]);
                     setMoneyMoving(false);
                     setMessageVisibillity(true);
                   }, 500);
@@ -173,9 +184,11 @@ export default function Questions() {
               onMouseOver={() => setFront(1)}
             >
               <div className={qStyles.question2}>
-                {fragen[count][0][1]["a"]}
+                {questions[count][0][1]["a"]}
               </div>
-              <div className={qStyles.price}>{fragen[count][0][1]["p"]}€</div>
+              <div className={qStyles.price}>
+                {questions[count][0][1]["p"]}€
+              </div>
             </button>
           </div>
         </div>
@@ -184,7 +197,7 @@ export default function Questions() {
       objToRender = (
         <div className={qStyles.message}>
           <div className={qStyles.messageContainer}>
-            {fragen[count][0][qoption]["m"]}
+            {questions[count][0][qoption]["m"]}
           </div>
           <button className={qStyles.messageButton} onClick={() => newDay(10)}>
             weiter
@@ -210,7 +223,7 @@ export default function Questions() {
                 return a[1].price - b[1].price;
               })
               .map((item, index) => (
-                <div className={qStyles.cbuy}>
+                <div key={index} className={qStyles.cbuy}>
                   <div className={qStyles.cbuyname}>
                     {item[1]["emoji"] + "       " + item[1]["name"]}
                   </div>
@@ -256,10 +269,6 @@ export default function Questions() {
       setClickable(true);
     }, 500);
   }
-  async function getquestions() {
-    const response = await fetch("/api/fragen");
-    const data = await response.json();
-    return data;
-  }
+
   return <>{objToRender}</>;
 }

@@ -15,9 +15,9 @@
     "price": 20
   },
   "3": {
-    "name": "Gaming-Laptop",
+    "name": "Laptop",
     "emoji": "💻",
-    "price": 1500
+    "price": 700
   },
   "4": {
     "name": "Playstation 5",
@@ -37,7 +37,7 @@
   "7": {
     "name": "Handy",
     "emoji": "📱",
-    "price": 1000
+    "price": 2500
   },
   "8": {
     "name": "Bluetooth-Lautsprecher",

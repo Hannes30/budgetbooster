@@ -52,7 +52,7 @@ export default function Home() {
           im Verwalten deiner Finanzen!
         </div>
         <div className={homeStyles.playbuttonparent}>
-          <Link className={homeStyles.playbutton} href={"./game_site"}>
+          <Link className={homeStyles.playbutton} href={"./game"}>
             Play
           </Link>
           <Image
