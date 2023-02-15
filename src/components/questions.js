@@ -2,12 +2,14 @@ import qStyles from "../styles/questions.module.css";
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Nav from "./nav";
-import OwnFooter from "./ownFooter";
 import { Chart } from "chart.js";
 import itemsBuy from "../../public/items.json";
 import ChartComponent from "./ChartComponent";
 import Comparison from "./comparison";
+import Message from "./message";
+import Tutorial from "./Tutorial";
+import MoneyDisplay from "./moneyDisplay";
+import ItemsYouCouldBuy from "./itemsYouCouldBuy";
 
 export default function Questions() {
   const [count, setCount] = useState(-1);
@@ -29,7 +31,6 @@ export default function Questions() {
     }
     fetchData();
   }, []);
-
   async function getQuestions() {
     const response = await fetch("/api/fragen");
     const data = await response.json();
@@ -39,13 +40,7 @@ export default function Questions() {
   if (moneyMovingValue > 0) {
     vorzeichen = "+";
   }
-
   let objToRender = <></>;
-  if (count == 21 && chosenOptions[21] == 0) {
-    newDay(-20);
-  } else if (count == 20) {
-    newDay(0);
-  }
   if (count == 31) {
     objToRender = <Comparison data={moneyHistory} money={money}></Comparison>;
   } else if (count == 10) {
@@ -54,49 +49,23 @@ export default function Questions() {
         ? "Deine Tante schenkt dir eine Kerze und 80€ in bar"
         : "Deine Tante schenkt dir nichts da du ihr auch nichts geschenkt hast";
     objToRender = (
-      <div className={qStyles.message}>
-        <div className={qStyles.messageContainer}>
-          Es ist dein Geburtstag. {message}
-        </div>
-        <button
-          className={qStyles.messageButton}
-          onClick={() => (chosenOptions[5] == 0 ? newDay(80) : newDay(0))}
-        >
-          weiter
-        </button>
-      </div>
+      <Message cb={newDay} value={chosenOptions[5] == 0 ? 80 : 0}>
+        Es ist dein Geburtstag. {message}
+      </Message>
     );
   } else if (count == 15) {
     if (chosenOptions[10] == 0) {
       objToRender = (
-        <div className={qStyles.message}>
-          <div className={qStyles.messageContainer}>
-            Durch dein erlangtes Wissen aus den 2 Büchern die du dir an tag 11
-            gekauft hast hast du 50 euro verdient
-          </div>
-          <button className={qStyles.messageButton} onClick={() => newDay(50)}>
-            weiter
-          </button>
-        </div>
+        <Message cb={newDay} value={50}>
+          Durch dein erlangtes Wissen aus den 2 Büchern die du dir an tag 11
+          gekauft hast hast du 50 euro verdient
+        </Message>
       );
     } else {
       newDay(0);
     }
   } else if (count == -1) {
-    objToRender = (
-      <div className={qStyles.tutorialWrapper}>
-        <div className={qStyles.tutorial}>
-          Starte mit {money}€ Startkapital und baue dein Vermögen täglich auf,
-          indem du durch das Spiel navigierst. Das Spiel dauert 30 virtuelle
-          Tage und du erhältst täglich zusätzliche 10€. Du musst jeden Tag eine
-          Entscheidung treffen wie du dein Geld ausgibst. Nicht immer ist die
-          Option wo man im Moment am meisten Geld behält die Beste ;)
-        </div>
-        <button className={qStyles.startGame} onClick={() => setCount(0)}>
-          Starten
-        </button>
-      </div>
-    );
+    objToRender = <Tutorial setCount={setCount} value={0} money={money} />;
   } else if (count > -1 && count < Object.keys(questions).length + 2) {
     if (!messageVisibilitty) {
       if (money < 0) {
@@ -105,28 +74,13 @@ export default function Questions() {
       }
       objToRender = (
         <div className={qStyles.Wrapper}>
-          <div className={qStyles.moneyDisplayParent}>
-            <div className={qStyles.dayDisplay}>
-              Tag
-              <span className={qStyles.greenSpan}> {count + 1}</span>
-            </div>
-            <div className={qStyles.moneyDisplay}>
-              {money}€ {moneyMoving}
-              <div
-                className={
-                  qStyles.addmoney +
-                  " " +
-                  (moneyMoving ? qStyles.moving : qStyles.addmoneyInvisible) +
-                  " " +
-                  (moneyMovingValue > 0 ? qStyles.green : qStyles.red)
-                }
-              >
-                {vorzeichen}
-                {moneyMovingValue}
-              </div>
-            </div>
-          </div>
-
+          <MoneyDisplay
+            money={money}
+            moneyMoving={moneyMoving}
+            moneyMovingValue={moneyMovingValue}
+            vorzeichen={vorzeichen}
+            count={count}
+          />
           <div className={qStyles.questions}>
             <button
               onClick={() => {
@@ -195,14 +149,9 @@ export default function Questions() {
       );
     } else if (messageVisibilitty) {
       objToRender = (
-        <div className={qStyles.message}>
-          <div className={qStyles.messageContainer}>
-            {questions[count][0][qoption]["m"]}
-          </div>
-          <button className={qStyles.messageButton} onClick={() => newDay(10)}>
-            weiter
-          </button>
-        </div>
+        <Message cb={newDay} value={10}>
+          {questions[count][0][qoption]["m"]}
+        </Message>
       );
     }
   } else {
@@ -215,31 +164,7 @@ export default function Questions() {
             className={qStyles.statsGraph}
           ></ChartComponent>
         </div>
-        <div className={qStyles.itemsBuy}>
-          <h1>Dinge die du dir jetzt Leisten kannst</h1>
-          <div className={qStyles.cbuyContainer}>
-            {Object.entries(itemsBuy)
-              .sort((a, b) => {
-                return a[1].price - b[1].price;
-              })
-              .map((item, index) => (
-                <div key={index} className={qStyles.cbuy}>
-                  <div className={qStyles.cbuyname}>
-                    {item[1]["emoji"] + "       " + item[1]["name"]}
-                  </div>
-                  <div
-                    className={
-                      qStyles.cbuyprice +
-                      " " +
-                      (item[1]["price"] > money ? qStyles.red : qStyles.green)
-                    }
-                  >
-                    {item[1]["price"]}
-                  </div>
-                </div>
-              ))}
-          </div>
-        </div>
+        <ItemsYouCouldBuy itemsBuy={itemsBuy} money={money} />
         <button
           className={qStyles.startGame + " " + qStyles.mgTop}
           onClick={() => setCount(31)}
