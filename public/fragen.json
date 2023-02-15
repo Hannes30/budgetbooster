@@ -6,37 +6,52 @@
         "p": 5,
         "m": "Schlechte Entscheidung. Regelmäßiger Kauf von teurem Kaffee führt zu höheren Kosten im Vergleich zur Zubereitung von Kaffee zu Hause, was günstiger ist."
       },
+
       {
         "a": "Ich mache mir zu Hause einen Kaffee mit der Kaffeemaschine",
+
         "p": 1,
+
         "m": "Gute Entscheidung. Es reduziert den Kosteneinsatz, da man den Kaffee zu einem günstigeren Preis kaufen und zu Hause zubereiten kann."
       }
     ]
   },
+
   "1": {
     "0": [
       {
         "a": "Ich kaufe mir nach der Schule Zigaretten",
+
         "p": 7,
+
         "m": "Schlechte Entscheidung. Rauchen ist ungesund und kann auf lange Sicht zu Gesundheitsproblemen führen dazu kosten sie sehr viel."
       },
+
       {
-        "a": "Ich verzichte auf das Rauchen",
-        "p": 0,
+        "a": "Ich kaufe mir nach Schule einen Proteinriegel",
+
+        "p": 2,
+
         "m": "Gute Entscheidung. Verzicht auf Rauchen ist gut für die Gesundheit und kann auf lange Sicht Kosten sparen."
       }
     ]
   },
+
   "2": {
     "0": [
       {
         "a": "Ich kaufe mir eine Topfentasche beim Bäcker",
+
         "p": 3,
+
         "m": "Schlechte Entscheidung. Die Topfentasche schmeckt nicht unbedingt besser, aber kostet mehr."
       },
+
       {
         "a": "Ich kaufe mir eine Topfentasche im Supermarkt",
+
         "p": 1,
+
         "m": "Gute Entscheidung. Die Topfentasche schmeckt fast so gut und ist viel billiger."
       }
     ]
@@ -46,268 +61,382 @@
     "0": [
       {
         "a": "Ich gehe zum Einkaufen ins Einkaufszentrum",
+
         "p": 40,
-        "m": "Gute Entscheidung.Es ist zwar teurer aber unterstütz die lokalen Händler"
+
+        "m": "Gute Entscheidung.Es ist zwar teurer aber unterstützt die lokalen Händler"
       },
+
       {
         "a": "Ich kaufe meine Sachen online ein",
+
         "p": 20,
+
         "m": "Gute Entscheidung. Einkaufen im Einkaufszentrum kann eine gute Möglichkeit sein, um verschiedene Produkte zu sehen und zu vergleichen."
       }
     ]
   },
+
   "4": {
     "0": [
       {
-        "a": "Ich kaufe einen Vorrat meines Lieblingsessen in aktion",
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessen in Aktion",
+
         "p": 10,
+
         "m": "Gute Entscheidung. Es ist klüger, Lebensmittel im Aktionsangebot zu kaufen, da man dabei häufig Geld sparen und gleichzeitig die Möglichkeit haben kann, eine größere Menge an Lebensmitteln für den gleichen Preis zu erwerben."
       },
+
       {
-        "a": "Ich kaufe einen Vorrat meines Lieblingsessen ohne aktion",
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessen ohne Action",
+
         "p": 20,
+
         "m": "Schlechte Entscheidung. Es ist klüger, Lebensmittel im Aktionsangebot zu kaufen, da man dabei häufig Geld sparen und gleichzeitig die Möglichkeit haben kann, eine größere Menge an Lebensmitteln für den gleichen Preis zu erwerben."
       }
     ]
   },
+
   "5": {
     "0": [
       {
-        "a": "Ich kaufe meiner Tante ein GeburtstagsGeschenk",
+        "a": "Ich kaufe meiner Tante ein Geburtstags Geschenk",
+
         "p": 40,
+
         "m": "Gute Entscheidung. Später oder früher zahlt es sich aus, nicht geizig zu sein."
       },
+
       {
-        "a": "Ich kaufe meiner Tante kein GerbutstagsGeschenk",
+        "a": "Ich kaufe meiner Tante kein Geburtstags Geschenk",
+
         "p": 0,
+
         "m": "Schlechte Entscheidung. Später oder früher zahlt es sich aus nicht geizig zu sein"
       }
     ]
   },
+
   "6": {
     "0": [
       {
         "a": "Ich teile mir mit Freunden einen Spotify Account",
+
         "p": 2,
+
         "m": "Gute Entscheidung. Teilen eines Accounts kann Kosten sparen und für alle Beteiligten günstiger sein."
       },
+
       {
         "a": "Ich benütze einen Spotify Account alleine",
+
         "p": 10,
+
         "m": "Schlechte Entscheidung. Individuelles Abonnement kann zu höheren Kosten führen als das Teilen eines Accounts mit Freunden."
       }
     ]
   },
+
   "7": {
     "0": [
       {
         "a": "Ich kauf mir ein neues Videospiel beim Hersteller",
+
         "p": 70,
+
         "m": "Schlechte Entscheidung. Auch wenn ein neues Spiel interessant klingt wird es nach der Zeit auch wieder langweilig und es gibt bereits schon viele Spiele die Kostenlos sind und Spaß"
       },
+
       {
         "a": "Ich kaufe mir ein Spiel bei einen Drittanbieter",
+
         "p": 20,
+
         "m": "Gute Entscheidung. Es gibt bereits viele Kostenlose Spiele die mit Freunden und alleine viel Spaß machen"
       }
     ]
   },
+
   "8": {
     "0": [
       {
         "a": "Ich gehe in den Club Feiern",
+
         "p": 70,
-        "m": "Schlechte Entscheidung"
+
+        "m": "Schlechte Entscheidung.Getränk im Club sind immer sehr viel teurer als selber gemachte"
       },
+
       {
         "a": "Ich gehe zu einen Kollegen feiern",
+
         "p": 30,
-        "m": "Gute Entscheidung"
+
+        "m": "Gute Entscheidung. Selbst gemischte Getränke sind billiger und man kann die Dosis besser bestimmen"
       }
     ]
   },
+
   "9": {
     "0": [
       {
-        "a": "Ich verbringe mein Wochenende im Freizeitpark",
-        "p": 30,
+        "a": "Ich verbringe mein Wochenende mit Freunden im Freizeitpark",
+
+        "p": 50,
+
         "m": "Gute Entscheidung. Freizeitparks bieten oft eine Vielzahl an Unterhaltungsmöglichkeiten und können ein spaßiges Wochenende bieten."
       },
+
       {
-        "a": "Ich bleibe zu Hause und ruhe mich aus",
+        "a": "Ich verbringe mein Wochenende mit Freunden im Park",
+
         "p": 0,
+
         "m": "Gute Entscheidung. Es ist wichtig, Zeit für sich selbst zu haben und sich zu erholen, um für die kommende Woche bereit zu sein."
       }
     ]
   },
+
   "11": {
     "0": [
       {
         "a": "Ich kaufe mir 2 Bücher",
+
         "p": 20,
-        "m": "Gute Entscheidung. Das Return of investment ist bei bildung immer sehr hoch"
+
+        "m": "Gute Entscheidung. Das Return of investment ist bei BIldung immer sehr hoch"
       },
+
       {
-        "a": "Ich kaufe mir keine Bücher",
-        "p": 0,
-        "m": "Schlechte Entscheidung. Das Return of investment ist bei bildung immer sehr hoch"
+        "a": "Ich kaufe mir Zeitschriften",
+
+        "p": 10,
+
+        "m": "Schlechte Entscheidung. Das Return of investment ist bei Zeitschriften nicht so hoch wie bei Bücher"
       }
     ]
   },
+
   "12": {
     "0": [
       {
         "a": "Ich gehe mit meiner Freundin ins Kino",
+
         "p": 25,
+
         "m": "Gute Entscheidung. Ins Kino zu gehen kann ein schöner und unterhaltsamer Abend sein."
       },
+
       {
         "a": "Ich gehe mit meiner Freundin ins Restaurant",
+
         "p": 40,
+
         "m": "Gute Entscheidung. Essen gehen kann eine gute Möglichkeit sein, Zeit miteinander zu verbringen und zu genießen."
       }
     ]
   },
+
   "13": {
     "0": [
       {
-        "a": "Ich kaufe mir eine Mitgliedschaft im Fitnesstudio",
+        "a": "Ich kaufe mir eine Mitgliedschaft im Fitnessstudio",
+
         "p": 40,
+
         "m": "Gute Entscheidung. Auch wenn es viel kostet ist eine investition in den eigenen Körper meistens das Geld Wert"
       },
+
       {
-        "a": "Ich treibe keinen Sport",
+        "a": "Ich mache Sport mit meinen eigenen Körpergewicht",
+
         "p": 0,
-        "m": "Schlechte Entscheidung. Auch wenn es am anfang billiger kommt wird es sich auf einen längeren Zeitraum auzahlen in den eigenen Körper zu Investieren"
+
+        "m": "Gute Entscheidung. Man kann genauso einen fitten Körper erreichen ohne ins gym zu gehen"
       }
     ]
   },
+
   "14": {
     "0": [
       {
         "a": "Ich besuche ein Konzert meiner Lieblingsband",
+
         "p": 40,
+
         "m": "Gute Entscheidung. Ein Konzertbesuch kann ein großartiges Erlebnis sein und die Möglichkeit bieten, eine Lieblingsband live zu sehen."
       },
+
       {
         "a": "Ich höre Musik zu Hause",
+
         "p": 0,
+
         "m": "Gute Entscheidung. Musik zu Hause zu hören kann eine entspannte und kostengünstige Möglichkeit sein, Musik zu genießen."
       }
     ]
   },
+
   "16": {
     "0": [
       {
-        "a": "Ich kaufe den battel pass in clash of clans",
+        "a": "Ich kaufe den battle pass in clash of clans",
+
         "p": 6,
-        "m": "Schlechte Entscheidung.Mann hat zwar einen Vorteil im spiel aber einen nachteil in der Geldbörse"
+
+        "m": "Schlechte Entscheidung.Mann hat zwar einen Vorteil im spiel aber einen Nachteil in der Geldbörse"
       },
+
       {
-        "a": "Ich kaufe denn battel pass nicht",
+        "a": "Ich kaufe denn battle pass nicht",
+
         "p": 0,
+
         "m": "Gute Entscheidung.Mann hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
       }
     ]
   },
+
   "17": {
     "0": [
       {
-        "a": "Ich kaufe mir ein neues Handy",
+        "a": "Ich kaufe mir ein neues IPhone",
+
         "p": 200,
+
         "m": "Schlechte Entscheidung.Es ist besser auf sein altes Handy gut aufzupassen anstatt sich immer ein neues zu kaufen"
       },
+
       {
-        "a": "Ich behalte mein altes",
-        "p": 0,
+        "a": "Ich repariere mein alter",
+
+        "p": 75,
+
         "m": "Gute Entscheidung.Es ist besser auf sein altes Handy gut aufzupassen anstatt sich immer ein neues zu kaufen"
       }
     ]
   },
+
   "18": {
     "0": [
       {
-        "a": "Ich kaufe mir Disney+,Netflix,Crunchyroll und ",
+        "a": "Ich kaufe mir Disney+,Netflix und Amazon Prime ",
+
         "p": 40,
-        "m": "Schlechte Entscheidung. Viele Streaming diesnte kosten viel und kosten auch jeden Monat etwas. Am besten wäre es einen dienst auszunützen kündigen und dann den nächsten kaufen."
+
+        "m": "Schlechte Entscheidung. Viele Streaming diente kosten viel und kosten auch jeden Monat etwas. Am besten wäre es einen dienst auszunützen kündigen und dann den nächsten kaufen."
       },
+
       {
-        "a": "Ich kaufe mir nur zugang zu einen Streamingdienst",
+        "a": "Ich kaufe mir nur Zugang zu einen Streamingdienst",
+
         "p": 10,
-        "m": "Gute Entscheidung.Nutze diesen Dienst so gut aus wie es geht und wenn es keinen spaß mehr macht kündige und abboniere einen anderen"
+
+        "m": "Gute Entscheidung.Nutze diesen Dienst so gut aus wie es geht und wenn es keinen Spaß mehr macht kündige und abonniere einen anderen"
       }
     ]
   },
+
   "19": {
     "0": [
       {
         "a": "Ich kaufe mir neue Schuhe auf StockX",
+
         "p": 250,
+
         "m": "Schlechte Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
       },
+
       {
         "a": "Ich kaufe mir Schuhe sobald sie wieder verfügbar sind",
+
         "p": 120,
+
         "m": "Gute Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
       }
     ]
   },
+
   "20": {
     "0": [
       {
-        "a": "Ich tune mein Moped",
-        "p": 50,
+        "a": "Ich tune mein Moped mit illegalen Teilen",
+
+        "p": 200,
+
         "m": "Schlechte Entscheidung.Moped tunen ist sehr zeitaufwendig und frisst sehr viel Geld."
       },
+
       {
-        "a": "Ich tune mein Moped nicht",
-        "p": 0,
+        "a": "Ich tune mein Moped mit legalen Teilen",
+
+        "p": 100,
+
         "m": "Gute Entscheidung.Moped tunen ist sehr zeitaufwendig und frisst sehr viel Geld."
       }
     ]
   },
+
   "21": {
     "0": [
       {
         "a": "Ich kaufe mir Fast Food(3tage)",
+
         "p": 40,
-        "m": "Schlechte Entscheidung.Fast food ist nicht billiger und macht weniger satt"
+
+        "m": "Schlechte Entscheidung.Fast Food ist nicht billiger und macht weniger satt"
       },
+
       {
         "a": "Ich kaufe mir Lebensmittel und koche zuhause (3tage)",
+
         "p": 15,
+
         "m": "Gute Entscheidung.Du bist satt für den ganzen Tag"
       }
     ]
   },
+
   "22": {
     "0": [
       {
-        "a": "Ich kaufe mir 5 snus Packungen",
+        "a": "Ich kaufe mir 5 Snus Packungen",
+
         "p": 20,
+
         "m": "Schlechte Entscheidung.Genau wie Zigaretten kosten sie jede Woche Geld"
       },
+
       {
-        "a": "Ich kaufe mir keine snus",
-        "p": 0,
-        "m": "Gute Entscheidung.Du behaltest jede Woche 20€ dadurch"
+        "a": "Ich kaufe mir Schokoriegel",
+
+        "p": 4,
+
+        "m": "Gute Entscheidung.Zucker ist zwar auch ungesund aber nicht so ungesund wie Nikotin"
       }
     ]
   },
+
   "23": {
     "0": [
       {
-        "a": "Ich kaufe mir einen rießigen Teddybär",
+        "a": "Ich kaufe mir einen riesigen Teddybär",
+
         "p": 40,
-        "m": "Schlechte Entscheidung.Warum würdest du einen rießigen Teddybär brauchen? "
+
+        "m": "Schlechte Entscheidung.Warum würdest du einen riesigen Teddybär brauchen? "
       },
+
       {
         "a": "Ich kauf mir einen normalen Teddybär",
+
         "p": 20,
-        "m": "Gute Entscheidung.Warum würdest du einen rießigen Teddybär brauchen?"
+
+        "m": "Gute Entscheidung.Warum würdest du einen riesigen Teddybär brauchen?"
       }
     ]
   },
+
   "24": {
     "0": [
       {
@@ -315,6 +444,7 @@
         "p": 25,
         "m": "Schlechte Entscheidung.Nicht so schlimm wie Zigaretten aber trotzdem teuer"
       },
+
       {
         "a": "Ich gehe nicht Shisha Rauchen mit Freunden",
         "p": 0,

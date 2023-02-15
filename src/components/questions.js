@@ -10,6 +10,8 @@ import itemsBuy from "../../public/items.json";
 import ChartComponent from "./ChartComponent";
 
 export default function Questions() {
+  let fragen1 = getquestions();
+  console.log(fragen1);
   const [count, setCount] = useState(-1);
   const [clickable, setClickable] = useState(true);
   const [money, setMoney] = useState(500);
@@ -253,6 +255,11 @@ export default function Questions() {
       setMoney(money + moneyAmount);
       setClickable(true);
     }, 500);
+  }
+  async function getquestions() {
+    const response = await fetch("/api/fragen");
+    const data = await response.json();
+    return data;
   }
   return <>{objToRender}</>;
 }
