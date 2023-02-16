@@ -4,6 +4,7 @@ import React, { useRef, useEffect } from "react";
 const MyChart = (props) => {
   const chartRef = useRef(null);
 
+  console.log(props.data2);
   useEffect(() => {
     new Chart(chartRef.current, {
       type: "line",
@@ -18,6 +19,12 @@ const MyChart = (props) => {
             data: props.data,
             backgroundColor: ["rgba(54, 162, 235, .33)"],
             borderColor: ["rgba(54, 162, 235, 1)"],
+          },
+          {
+            label: "Durschnitt",
+            data: props.data2,
+            backgroundColor: ["rgba(157,121,188,0.3)"],
+            borderColor: ["rgba(157,121,188)"],
           },
         ],
       },

@@ -1,8 +1,32 @@
 .wrapper {
   position: relative;
   top: 100px;
+  text-align: center;
 }
 .heading {
+  color: #252525;
+  font-size: 72px;
+  text-align: center;
   margin: 0;
   padding: 0;
+}
+.heading2 {
+  color: #182a2e;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.avarageMoneyDisplay {
+  font-size: 64px;
+  color: #4ecb71;
+  font-weight: 600;
+}
+.avarageMoneyText {
+  font-size: 32px;
+  font-weight: 500;
+}
+.chartParent {
+  margin: 10vw;
+  margin-top: 10px;
 }

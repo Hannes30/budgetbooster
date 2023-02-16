@@ -41,24 +41,34 @@ export default function Questions() {
     vorzeichen = "+";
   }
   let objToRender = <></>;
-  if (count == 31) {
+  if (count == 32) {
     objToRender = <Comparison data={moneyHistory} money={money}></Comparison>;
   } else if (count == 10) {
     let message =
       chosenOptions[5] == 0
-        ? "Deine Tante schenkt dir eine Kerze und 80€ in bar"
-        : "Deine Tante schenkt dir nichts da du ihr auch nichts geschenkt hast";
+        ? "Deine Mutter schenkt dir eine Kerze und 180€ in bar"
+        : "Deine Mutter schenkt dir nichts da du ihr auch nichts geschenkt hast";
     objToRender = (
-      <Message cb={newDay} value={chosenOptions[5] == 0 ? 80 : 0}>
+      <Message cb={newDay} value={chosenOptions[5] == 0 ? 180 : 0}>
         Es ist dein Geburtstag. {message}
       </Message>
     );
   } else if (count == 15) {
     if (chosenOptions[10] == 0) {
       objToRender = (
-        <Message cb={newDay} value={50}>
+        <Message cb={newDay} value={100}>
           Durch dein erlangtes Wissen aus den 2 Büchern die du dir an tag 11
-          gekauft hast hast du 50 euro verdient
+          gekauft hast hast du 100 euro verdient
+        </Message>
+      );
+    } else {
+      newDay(0);
+    }
+  } else if (count == 24) {
+    if (chosenOptions[21] == 0) {
+      objToRender = (
+        <Message cb={newDay} value={150}>
+          Durch dein erlangtes Wissen aus dem Online Kurs hast du 150€ verdient
         </Message>
       );
     } else {
@@ -68,10 +78,6 @@ export default function Questions() {
     objToRender = <Tutorial setCount={setCount} value={0} money={money} />;
   } else if (count > -1 && count < Object.keys(questions).length + 2) {
     if (!messageVisibilitty) {
-      if (money < 0) {
-        setMoney(0);
-        setCount(30);
-      }
       objToRender = (
         <div className={qStyles.Wrapper}>
           <MoneyDisplay
@@ -149,12 +155,13 @@ export default function Questions() {
       );
     } else if (messageVisibilitty) {
       objToRender = (
-        <Message cb={newDay} value={10}>
+        <Message cb={newDay} value={15}>
           {questions[count][0][qoption]["m"]}
         </Message>
       );
     }
   } else {
+    console.log(moneyHistory);
     objToRender = (
       <div className={qStyles.stats}>
         <h1>Ausgaben</h1>
@@ -167,7 +174,7 @@ export default function Questions() {
         <ItemsYouCouldBuy itemsBuy={itemsBuy} money={money} />
         <button
           className={qStyles.startGame + " " + qStyles.mgTop}
-          onClick={() => setCount(31)}
+          onClick={() => setCount(32)}
         >
           Vergleichen
         </button>

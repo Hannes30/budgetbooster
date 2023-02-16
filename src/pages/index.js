@@ -84,9 +84,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className={homeStyles.insights}>
-        <h2 className={homeStyles.title}>Einblicke</h2>
-      </div>
+
       <OwnFooter></OwnFooter>
     </div>
   );

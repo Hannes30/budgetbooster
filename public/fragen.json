@@ -68,11 +68,11 @@
       },
 
       {
-        "a": "Ich kaufe meine Sachen online ein",
+        "a": "Ich kaufe meine Sachen Second Hand",
 
         "p": 20,
 
-        "m": "Gute Entscheidung. Einkaufen Online ist meistens billiger als lokal,jeddoch umwelschädlicher."
+        "m": "Gute Entscheidung. Second Hand-Shooping ist Billiger und kann Spaß machen."
       }
     ]
   },
@@ -100,7 +100,7 @@
   "5": {
     "0": [
       {
-        "a": "Ich kaufe meiner Tante ein Geburtstags Geschenk",
+        "a": "Ich kaufe meiner Mutter ein Geburtstags Geschenk",
 
         "p": 40,
 
@@ -108,7 +108,7 @@
       },
 
       {
-        "a": "Ich kaufe meiner Tante kein Geburtstags Geschenk",
+        "a": "Ich kaufe meiner Mutter kein Geburtstags Geschenk",
 
         "p": 0,
 
@@ -140,19 +140,18 @@
   "7": {
     "0": [
       {
-        "a": "Ich kauf mir ein neues Videospiel beim Hersteller",
-
-        "p": 70,
-
-        "m": "Schlechte Entscheidung. Auch wenn ein neues Spiel interessant klingt wird es nach der Zeit auch wieder langweilig und es gibt bereits schon viele Spiele die Kostenlos sind und Spaß"
-      },
-
-      {
         "a": "Ich kaufe mir ein Spiel bei einen Drittanbieter",
 
         "p": 20,
 
         "m": "Gute Entscheidung. Es gibt bereits viele Kostenlose Spiele die mit Freunden und alleine viel Spaß machen"
+      },
+      {
+        "a": "Ich kauf mir ein neues Videospiel beim Hersteller",
+
+        "p": 70,
+
+        "m": "Schlechte Entscheidung. Auch wenn ein neues Spiel interessant klingt wird es nach der Zeit auch wieder langweilig und es gibt bereits schon viele Spiele die Kostenlos sind und Spaß"
       }
     ]
   },
@@ -220,19 +219,18 @@
   "12": {
     "0": [
       {
-        "a": "Ich gehe mit meiner Freundin ins Kino",
-
-        "p": 25,
-
-        "m": "Gute Entscheidung. Ins Kino zu gehen kann ein schöner und unterhaltsamer Abend sein."
-      },
-
-      {
         "a": "Ich gehe mit meiner Freundin ins Restaurant",
 
         "p": 40,
 
         "m": "Gute Entscheidung. Essen gehen kann eine gute Möglichkeit sein, Zeit miteinander zu verbringen und zu genießen."
+      },
+      {
+        "a": "Ich gehe mit meiner Freundin ins Kino",
+
+        "p": 25,
+
+        "m": "Gute Entscheidung. Ins Kino zu gehen kann ein schöner und unterhaltsamer Abend sein."
       }
     ]
   },
@@ -280,19 +278,18 @@
   "16": {
     "0": [
       {
-        "a": "Ich kaufe den battle pass in clash of clans",
-
-        "p": 6,
-
-        "m": "Schlechte Entscheidung.Mann hat zwar einen Vorteil im spiel aber einen Nachteil in der Geldbörse"
-      },
-
-      {
         "a": "Ich kaufe denn battle pass nicht",
 
         "p": 0,
 
         "m": "Gute Entscheidung.Mann hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
+      },
+      {
+        "a": "Ich kaufe den battle pass in clash of clans",
+
+        "p": 6,
+
+        "m": "Schlechte Entscheidung.Mann hat zwar einen Vorteil im spiel aber einen Nachteil in der Geldbörse"
       }
     ]
   },
@@ -300,19 +297,19 @@
   "17": {
     "0": [
       {
-        "a": "Ich kaufe mir ein neues IPhone",
+        "a": "Ich kaufe mir einen Marken Rucksack",
 
-        "p": 200,
+        "p": 50,
 
-        "m": "Schlechte Entscheidung.Es ist besser auf sein altes Handy gut aufzupassen anstatt sich immer ein neues zu kaufen"
+        "m": "Schlechte Entscheidung.Es schaut vielleicht besser aus aber bringt nicht mehr"
       },
 
       {
-        "a": "Ich repariere mein alter",
+        "a": "Ich kaufe einen normalen Rucksack",
 
-        "p": 75,
+        "p": 25,
 
-        "m": "Gute Entscheidung.Es ist besser auf sein altes Handy gut aufzupassen anstatt sich immer ein neues zu kaufen"
+        "m": "Gute Entscheidung.Bringt genau so viel wie der Marken Rucksack nur ist er Billiger"
       }
     ]
   },
@@ -342,7 +339,7 @@
       {
         "a": "Ich kaufe mir neue Schuhe auf StockX",
 
-        "p": 250,
+        "p": 200,
 
         "m": "Schlechte Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
       },
@@ -350,7 +347,7 @@
       {
         "a": "Ich kaufe mir Schuhe sobald sie wieder verfügbar sind",
 
-        "p": 120,
+        "p": 100,
 
         "m": "Gute Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
       }
@@ -360,19 +357,18 @@
   "20": {
     "0": [
       {
-        "a": "Ich tune mein Moped mit illegalen Teilen",
+        "a": "Ich fahre mit dem Fahrrad in die Schule",
 
-        "p": 200,
+        "p": 0,
 
-        "m": "Schlechte Entscheidung.Moped tunen ist sehr zeitaufwendig und frisst sehr viel Geld."
+        "m": "Gute Entscheidung.Fahrradfahren ist gesund und spart Geld."
       },
-
       {
-        "a": "Ich tune mein Moped mit legalen Teilen",
+        "a": "Ich fahre mit dem Auto in die Schule",
 
-        "p": 100,
+        "p": 20,
 
-        "m": "Gute Entscheidung.Moped tunen ist sehr zeitaufwendig und frisst sehr viel Geld."
+        "m": "Schlechte Entscheidung.Tanken ist nicht billig aber wenn es regenet gibt es keine andere Option"
       }
     ]
   },
@@ -380,19 +376,19 @@
   "21": {
     "0": [
       {
-        "a": "Ich kaufe mir Fast Food(3tage)",
+        "a": "Ich Kaufe mir einen Online kurs über Finanzen und Schaue diesen",
 
         "p": 40,
 
-        "m": "Schlechte Entscheidung.Fast Food ist nicht billiger und macht weniger satt"
+        "m": "Gute Entscheidung.Der Kurs wird sich auszahlen"
       },
 
       {
-        "a": "Ich kaufe mir Lebensmittel und koche zuhause (3tage)",
+        "a": "Ich Schaue den ganzen Tag Netflix",
 
-        "p": 15,
+        "p": 0,
 
-        "m": "Gute Entscheidung.Du bist satt für den ganzen Tag"
+        "m": "Schlechte Entscheidung. Ein bisschen entspannen ist wichtig aber nicht den ganzen Tag "
       }
     ]
   },
@@ -420,24 +416,53 @@
   "23": {
     "0": [
       {
-        "a": "Ich kaufe mir einen riesigen Teddybär",
-
-        "p": 40,
-
-        "m": "Schlechte Entscheidung.Warum würdest du einen riesigen Teddybär brauchen? "
-      },
-
-      {
         "a": "Ich kauf mir einen normalen Teddybär",
 
         "p": 20,
 
         "m": "Gute Entscheidung.Warum würdest du einen riesigen Teddybär brauchen?"
+      },
+      {
+        "a": "Ich kaufe mir einen riesigen Teddybär",
+
+        "p": 40,
+
+        "m": "Schlechte Entscheidung.Warum würdest du einen riesigen Teddybär brauchen? "
       }
     ]
   },
 
-  "24": {
+  "25": {
+    "0": [
+      {
+        "a": "Ich Kaufe mir marken Parfüm",
+        "p": 60,
+        "m": "Schlechte Entscheidung.Du hast einen ähnliche Duft für das Doppelte des Preis"
+      },
+
+      {
+        "a": "Ich informiere mich über Parfüm und kaufe mir einen gleich guten Billigeren",
+        "p": 30,
+        "m": "Gute Entscheidung.Du hast einen ähnliche Duft für die hälfte des Preis"
+      }
+    ]
+  },
+  "26": {
+    "0": [
+      {
+        "a": "Ich Kaufe mir eine Teuere Uhr mit Gold verkleidet",
+        "p": 400,
+        "m": "Schlechte Entscheidung.Du hast einen ähnliche Duft für das Doppelte des Preis"
+      },
+
+      {
+        "a": "Ich kaufe mir eine eine normale Uhr",
+        "p": 200,
+        "m": "Gute Entscheidung. Du hast einen ähnliche Duft für die hälfte des Preis"
+      }
+    ]
+  },
+  "27": {
     "0": [
       {
         "a": "Ich gehe Shisha Rauchen mit Freunden",
@@ -449,6 +474,51 @@
         "a": "Ich gehe nicht Shisha Rauchen mit Freunden",
         "p": 0,
         "m": "Gute Entscheidung."
+      }
+    ]
+  },
+  "28": {
+    "0": [
+      {
+        "a": "Ich Kaufe mir die nächsten 3 Tage fast Food",
+        "p": 40,
+        "m": "Schlechte Entscheidung.Nicht so schlimm wie Zigaretten aber trotzdem teuer"
+      },
+
+      {
+        "a": "Ich Kaufe mir einmal Lebensmittel um daheim zu Kochen",
+        "p": 20,
+        "m": "Gute Entscheidung.Es mag zwar am Anfang teuerer sein aber über längere Zeit zahlt es sich aus"
+      }
+    ]
+  },
+  "29": {
+    "0": [
+      {
+        "a": "Ich kaufe mir ein Aribnb als Unterkunf",
+        "p": 50,
+        "m": "Gute Entscheidung.Ein Airbnb ist emistens Billiger als ien Hotel und amn hat mehr Freiheiten"
+      },
+
+      {
+        "a": "Ich kaufe mir ein Hotel als Unterkunf",
+        "p": 100,
+        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Dabei"
+      }
+    ]
+  },
+  "30": {
+    "0": [
+      {
+        "a": "Ich kaufe mir ein Aribnb als Unterkunf",
+        "p": 50,
+        "m": "Gute Entscheidung.Ein Airbnb ist emistens Billiger als ien Hotel und amn hat mehr Freiheiten"
+      },
+
+      {
+        "a": "Ich kaufe mir ein Hotel als Unterkunf",
+        "p": 100,
+        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Dabei"
       }
     ]
   }
