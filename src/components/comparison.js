@@ -20,7 +20,7 @@ const Comparison = (props) => {
     const sendDataToAPI = async () => {
       try {
         const response = await fetch(
-          "http://localhost:8000/" + props.money + "&" + props.data.join(","),
+          "/api/stats?money=" + props.money + "&moneyhistory=" + props.data.join(","),
           {
             method: "GET",
           }

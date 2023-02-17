@@ -282,14 +282,14 @@
 
         "p": 0,
 
-        "m": "Gute Entscheidung.Mann hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
+        "m": "Gute Entscheidung.Man hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
       },
       {
         "a": "Ich kaufe den battle pass in clash of clans",
 
         "p": 6,
 
-        "m": "Schlechte Entscheidung.Mann hat zwar einen Vorteil im spiel aber einen Nachteil in der Geldbörse"
+        "m": "Schlechte Entscheidung.Man hat zwar einen Vorteil im spiel aber einen Nachteil in der Geldbörse"
       }
     ]
   },
@@ -452,13 +452,13 @@
       {
         "a": "Ich Kaufe mir eine Teuere Uhr mit Gold verkleidet",
         "p": 400,
-        "m": "Schlechte Entscheidung.Du hast einen ähnliche Duft für das Doppelte des Preis"
+        "m": "Schlechte Entscheidung.Du kannst vond der billgeren genauso die Zeit lesen"
       },
 
       {
         "a": "Ich kaufe mir eine eine normale Uhr",
         "p": 200,
-        "m": "Gute Entscheidung. Du hast einen ähnliche Duft für die hälfte des Preis"
+        "m": "Gute Entscheidung. DU kannst genauso die Zeit lesen"
       }
     ]
   },
