@@ -140,18 +140,18 @@
   "7": {
     "0": [
       {
-        "a": "Ich kaufe mir ein Spiel bei einen Drittanbieter",
+        "a": "Ich kaufe mir das Spiel ein bisschen nach der Veröffentlichung",
 
-        "p": 20,
+        "p": 40,
 
-        "m": "Gute Entscheidung. Es gibt bereits viele Kostenlose Spiele die mit Freunden und alleine viel Spaß machen"
+        "m": "Gute Entscheidung. In der Regel werden Videospiel-Preise im Laufe der Zeit reduziert."
       },
       {
-        "a": "Ich kauf mir ein neues Videospiel beim Hersteller",
+        "a": "Ich kauf mir ein neues direkt bei der veröffentlichung Videospiel",
 
         "p": 70,
 
-        "m": "Schlechte Entscheidung. Auch wenn ein neues Spiel interessant klingt wird es nach der Zeit auch wieder langweilig und es gibt bereits schon viele Spiele die Kostenlos sind und Spaß"
+        "m": "Schlechte Entscheidung. In der Regel werden Videospiel-Preise im Laufe der Zeit reduziert. "
       }
     ]
   },
