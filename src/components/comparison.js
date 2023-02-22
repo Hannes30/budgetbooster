@@ -2,6 +2,8 @@ import Chart from "chart.js";
 import ChartComponent from "./ChartComponent2";
 import React, { useRef, useEffect, useState } from "react";
 import cStyles from "../styles/comparison.module.css";
+import Link from "next/link";
+import qStyles from "../styles/questions.module.css";
 
 const Comparison = (props) => {
   const [data, setData] = useState({ money: 0, history: "" });
@@ -20,7 +22,10 @@ const Comparison = (props) => {
     const sendDataToAPI = async () => {
       try {
         const response = await fetch(
-          "/api/stats?money=" + props.money + "&moneyhistory=" + props.data.join(","),
+          "/api/stats?money=" +
+            props.money +
+            "&moneyhistory=" +
+            props.data.join(","),
           {
             method: "GET",
           }
@@ -45,6 +50,12 @@ const Comparison = (props) => {
         Soviel Geld hat der Durchschnitts Spieler am Ende Des Spiels
       </div>
       <div className={cStyles.chartParent}>{objToRender}</div>
+      <h2>
+        Vielen Dank fürs Spielen von <strong>BudgetBooster</strong>.
+      </h2>
+      <Link href="./">
+        <button className={qStyles.startGame}>Home</button>
+      </Link>
     </div>
   );
 };

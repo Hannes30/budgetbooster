@@ -199,8 +199,6 @@
 .statsGraphContainer {
   width: 80vw;
 }
-.statsGraph {
-}
 .cbuyname {
   width: 50vw;
 }
@@ -231,4 +229,22 @@
 }
 .comparing {
   min-height: 100vh;
+}
+.source {
+  color: #4ecb71;
+}
+.sourceContainer {
+  margin-bottom: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.endMoneyDisplay {
+  width: min-content;
+  box-shadow: 10px 10px 29px -5px rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  font-size: 64px;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 15px;
+  color: #4ecb71;
 }

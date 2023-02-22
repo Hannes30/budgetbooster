@@ -10,6 +10,7 @@ import Message from "./message";
 import Tutorial from "./Tutorial";
 import MoneyDisplay from "./moneyDisplay";
 import ItemsYouCouldBuy from "./itemsYouCouldBuy";
+import Sources from "./sources";
 
 export default function Questions() {
   const [count, setCount] = useState(-1);
@@ -155,15 +156,19 @@ export default function Questions() {
       );
     } else if (messageVisibilitty) {
       objToRender = (
-        <Message cb={newDay} value={15}>
-          {questions[count][0][qoption]["m"]}
-        </Message>
+        <div>
+          <Message cb={newDay} value={15}>
+            {questions[count][0][qoption]["m"]}
+          </Message>
+          <Sources count={count} />
+        </div>
       );
     }
   } else {
-    console.log(moneyHistory);
     objToRender = (
       <div className={qStyles.stats}>
+        <h1>Geld</h1>
+        <div className={qStyles.endMoneyDisplay}>{money}€</div>
         <h1>Ausgaben</h1>
         <div className={qStyles.statsGraphContainer}>
           <ChartComponent
