@@ -165,6 +165,7 @@ export default function Questions() {
       );
     }
   } else {
+    console.log(moneyHistory);
     objToRender = (
       <div className={qStyles.stats}>
         <h1>Geld</h1>

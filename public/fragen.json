@@ -450,15 +450,14 @@
   "26": {
     "0": [
       {
-        "a": "Ich Kaufe mir eine Teuere Uhr mit Gold verkleidet",
-        "p": 400,
-        "m": "Schlechte Entscheidung.Du kannst vond der billgeren genauso die Zeit lesen"
+        "a": "Ich kaufe eine Jahreskarte für den öffentlichen Nahverkehr",
+        "p": 30,
+        "m": "Gute Entscheidung. Eine Jahreskarte kann langfristig Kosten sparen und ist umweltfreundlicher als das eigene Auto."
       },
-
       {
-        "a": "Ich kaufe mir eine eine normale Uhr",
-        "p": 200,
-        "m": "Gute Entscheidung. DU kannst genauso die Zeit lesen"
+        "a": "Ich fahre jede mal mit meinen Auto",
+        "p": 70,
+        "m": "Schlechte Entscheidung. Das eigene Auto kann langfristig teurer sein als der öffentliche Nahverkehr und ist oft umweltschädlich."
       }
     ]
   },
