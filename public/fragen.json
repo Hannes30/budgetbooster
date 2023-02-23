@@ -496,13 +496,13 @@
       {
         "a": "Ich kaufe mir ein Aribnb als Unterkunft.",
         "p": 50,
-        "m": "Gute Entscheidung.Ein Airbnb ist emistens Billiger als ien Hotel und amn hat mehr Freiheiten."
+        "m": "Gute Entscheidung.Ein Airbnb ist meistens Billiger als ein Hotel und man hat mehr Freiheiten."
       },
 
       {
         "a": "Ich kaufe mir ein Hotel als Unterkunft.",
         "p": 100,
-        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Dabei."
+        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Inklusive."
       }
     ]
   },
