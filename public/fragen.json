@@ -2,13 +2,13 @@
   "0": {
     "0": [
       {
-        "a": "Ich trinke nach der Schule meinen Kaffee bei Starbucks",
+        "a": "Ich trinke nach der Schule meinen Kaffee bei Starbucks.",
         "p": 5,
         "m": "Schlechte Entscheidung. Regelmäßiger Kauf von teurem Kaffee führt zu höheren Kosten im Vergleich zur Zubereitung von Kaffee zu Hause, was günstiger ist."
       },
 
       {
-        "a": "Ich mache mir zu Hause einen Kaffee mit der Kaffeemaschine",
+        "a": "Ich mache mir zu Hause einen Kaffee mit der Kaffeemaschine.",
 
         "p": 1,
 
@@ -20,7 +20,7 @@
   "1": {
     "0": [
       {
-        "a": "Ich kaufe mir nach der Schule Zigaretten",
+        "a": "Ich kaufe mir nach der Schule Zigaretten.",
 
         "p": 7,
 
@@ -28,7 +28,7 @@
       },
 
       {
-        "a": "Ich kaufe mir nach Schule einen Proteinriegel",
+        "a": "Ich kaufe mir nach Schule einen Proteinriegel.",
 
         "p": 2,
 
@@ -40,7 +40,7 @@
   "2": {
     "0": [
       {
-        "a": "Ich kaufe mir eine Topfentasche beim Bäcker",
+        "a": "Ich kaufe mir eine Topfentasche beim Bäcker.",
 
         "p": 3,
 
@@ -48,7 +48,7 @@
       },
 
       {
-        "a": "Ich kaufe mir eine Topfentasche im Supermarkt",
+        "a": "Ich kaufe mir eine Topfentasche im Supermarkt.",
 
         "p": 1,
 
@@ -60,15 +60,15 @@
   "3": {
     "0": [
       {
-        "a": "Ich gehe zum Einkaufen ins Einkaufszentrum",
+        "a": "Ich gehe zum Einkaufen ins Einkaufszentrum.",
 
         "p": 40,
 
-        "m": "Gute Entscheidung.Es ist zwar teurer aber unterstützt die lokalen Händler"
+        "m": "Gute Entscheidung.Es ist zwar teurer aber unterstützt die lokalen Händler."
       },
 
       {
-        "a": "Ich kaufe meine Sachen Second Hand",
+        "a": "Ich kaufe meine Sachen Second Hand.",
 
         "p": 20,
 
@@ -80,7 +80,7 @@
   "4": {
     "0": [
       {
-        "a": "Ich kaufe einen Vorrat meines Lieblingsessen in Aktion",
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessen in Aktion.",
 
         "p": 10,
 
@@ -88,7 +88,7 @@
       },
 
       {
-        "a": "Ich kaufe einen Vorrat meines Lieblingsessen ohne Aktion",
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessen ohne Aktion.",
 
         "p": 20,
 
@@ -100,7 +100,7 @@
   "5": {
     "0": [
       {
-        "a": "Ich kaufe meiner Mutter ein Geburtstags Geschenk",
+        "a": "Ich kaufe meiner Mutter ein Geburtstags Geschenk.",
 
         "p": 40,
 
@@ -108,11 +108,11 @@
       },
 
       {
-        "a": "Ich kaufe meiner Mutter kein Geburtstags Geschenk",
+        "a": "Ich kaufe meiner Mutter kein Geburtstags Geschenk.",
 
         "p": 0,
 
-        "m": "Schlechte Entscheidung. Später oder früher zahlt es sich aus nicht geizig zu sein"
+        "m": "Schlechte Entscheidung. Später oder früher zahlt es sich aus nicht geizig zu sein."
       }
     ]
   },
@@ -120,7 +120,7 @@
   "6": {
     "0": [
       {
-        "a": "Ich teile mir mit Freunden einen Spotify Account",
+        "a": "Ich teile mir mit Freunden einen Spotify Account.",
 
         "p": 2,
 
@@ -128,7 +128,7 @@
       },
 
       {
-        "a": "Ich benütze einen Spotify Account alleine",
+        "a": "Ich benütze einen Spotify Account alleine.",
 
         "p": 10,
 
@@ -140,14 +140,14 @@
   "7": {
     "0": [
       {
-        "a": "Ich kaufe mir das Spiel ein bisschen nach der Veröffentlichung",
+        "a": "Ich kaufe mir das Spiel ein bisschen nach der Veröffentlichung.",
 
         "p": 40,
 
         "m": "Gute Entscheidung. In der Regel werden Videospiel-Preise im Laufe der Zeit reduziert."
       },
       {
-        "a": "Ich kauf mir ein neues Videospiel direkt bei der Veröffentlichung ",
+        "a": "Ich kauf mir ein neues Videospiel direkt bei der Veröffentlichung.",
 
         "p": 70,
 
@@ -159,19 +159,19 @@
   "8": {
     "0": [
       {
-        "a": "Ich gehe in den Club Feiern",
+        "a": "Ich gehe in den Club Feiern.",
 
         "p": 70,
 
-        "m": "Schlechte Entscheidung.Getränk im Club sind immer sehr viel teurer als selber gemachte"
+        "m": "Schlechte Entscheidung.Getränk im Club sind immer sehr viel teurer als selber gemachte."
       },
 
       {
-        "a": "Ich gehe zu einen Kollegen feiern",
+        "a": "Ich gehe zu einen Kollegen feiern.",
 
         "p": 30,
 
-        "m": "Gute Entscheidung. Selbst gemischte Getränke sind billiger und man kann die Dosis besser bestimmen"
+        "m": "Gute Entscheidung. Selbst gemischte Getränke sind billiger und man kann die Dosis besser bestimmen."
       }
     ]
   },
@@ -179,7 +179,7 @@
   "9": {
     "0": [
       {
-        "a": "Ich verbringe mein Wochenende mit Freunden im Freizeitpark",
+        "a": "Ich verbringe mein Wochenende mit Freunden im Freizeitpark.",
 
         "p": 50,
 
@@ -187,7 +187,7 @@
       },
 
       {
-        "a": "Ich verbringe mein Wochenende mit Freunden im Park",
+        "a": "Ich verbringe mein Wochenende mit Freunden im Park.",
 
         "p": 0,
 
@@ -199,19 +199,19 @@
   "11": {
     "0": [
       {
-        "a": "Ich kaufe mir 2 Bücher",
+        "a": "Ich kaufe mir 2 Bücher.",
 
         "p": 20,
 
-        "m": "Gute Entscheidung. Das Return of investment ist bei BIldung immer sehr hoch"
+        "m": "Gute Entscheidung. Das Return of Investment ist bei Bildung immer sehr hoch."
       },
 
       {
-        "a": "Ich kaufe mir Zeitschriften",
+        "a": "Ich kaufe mir Zeitschriften.",
 
         "p": 10,
 
-        "m": "Schlechte Entscheidung. Das Return of investment ist bei Zeitschriften nicht so hoch wie bei Bücher"
+        "m": "Schlechte Entscheidung. Das Return of Investment ist bei Zeitschriften nicht so hoch wie bei Bücher."
       }
     ]
   },
@@ -219,14 +219,14 @@
   "12": {
     "0": [
       {
-        "a": "Ich gehe mit meiner Freundin ins Restaurant",
+        "a": "Ich gehe mit meiner Freundin ins Restaurant.",
 
         "p": 40,
 
         "m": "Gute Entscheidung. Essen gehen kann eine gute Möglichkeit sein, Zeit miteinander zu verbringen und zu genießen."
       },
       {
-        "a": "Ich gehe mit meiner Freundin ins Kino",
+        "a": "Ich gehe mit meiner Freundin ins Kino.",
 
         "p": 25,
 
@@ -238,19 +238,19 @@
   "13": {
     "0": [
       {
-        "a": "Ich kaufe mir eine Mitgliedschaft im Fitnessstudio",
+        "a": "Ich kaufe mir eine Mitgliedschaft im Fitnessstudio.",
 
         "p": 40,
 
-        "m": "Gute Entscheidung. Auch wenn es viel kostet ist eine investition in den eigenen Körper meistens das Geld Wert"
+        "m": "Gute Entscheidung. Auch wenn es viel kostet ist eine investition in den eigenen Körper meistens das Geld Wert."
       },
 
       {
-        "a": "Ich mache Sport mit meinen eigenen Körpergewicht",
+        "a": "Ich mache Sport mit meinen eigenen Körpergewicht.",
 
         "p": 0,
 
-        "m": "Gute Entscheidung. Man kann genauso einen fitten Körper erreichen ohne ins gym zu gehen"
+        "m": "Gute Entscheidung. Man kann genauso einen fitten Körper erreichen ohne ins gym zu gehen."
       }
     ]
   },
@@ -258,7 +258,7 @@
   "14": {
     "0": [
       {
-        "a": "Ich besuche ein Konzert meiner Lieblingsband",
+        "a": "Ich besuche ein Konzert meiner Lieblingsband.",
 
         "p": 40,
 
@@ -266,7 +266,7 @@
       },
 
       {
-        "a": "Ich höre Musik zu Hause",
+        "a": "Ich höre Musik zu Hause.",
 
         "p": 0,
 
@@ -278,18 +278,18 @@
   "16": {
     "0": [
       {
-        "a": "Ich kaufe denn battle pass nicht",
+        "a": "Ich kaufe denn battle pass nicht.",
 
         "p": 0,
 
-        "m": "Gute Entscheidung.Man hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse"
+        "m": "Gute Entscheidung.Man hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse."
       },
       {
-        "a": "Ich kaufe den battle pass in clash of clans",
+        "a": "Ich kaufe den battle pass in Clash of Clans.",
 
         "p": 6,
 
-        "m": "Schlechte Entscheidung.Man hat zwar einen Vorteil im spiel aber einen Nachteil in der Geldbörse"
+        "m": "Schlechte Entscheidung.Man hat zwar einen Vorteil im spiel aber einen Nachteil in der Geldbörse."
       }
     ]
   },
@@ -297,19 +297,19 @@
   "17": {
     "0": [
       {
-        "a": "Ich kaufe mir einen Marken Rucksack",
+        "a": "Ich kaufe mir einen Marken Rucksack.",
 
         "p": 50,
 
-        "m": "Schlechte Entscheidung.Es schaut vielleicht besser aus aber bringt nicht mehr"
+        "m": "Schlechte Entscheidung.Ein Marken Rucksack bringt nicht mehr funktionalität."
       },
 
       {
-        "a": "Ich kaufe einen normalen Rucksack",
+        "a": "Ich kaufe einen normalen Rucksack.",
 
         "p": 25,
 
-        "m": "Gute Entscheidung.Bringt genau so viel wie der Marken Rucksack nur ist er Billiger"
+        "m": "Gute Entscheidung.Bringt genau so viel wie der Marken Rucksack nur ist er Billiger."
       }
     ]
   },
@@ -317,7 +317,7 @@
   "18": {
     "0": [
       {
-        "a": "Ich kaufe mir Disney+,Netflix und Amazon Prime ",
+        "a": "Ich kaufe mir Disney+,Netflix und Amazon Prime.",
 
         "p": 40,
 
@@ -325,11 +325,11 @@
       },
 
       {
-        "a": "Ich kaufe mir nur Zugang zu einen Streamingdienst",
+        "a": "Ich kaufe mir nur Zugang zu einen Streamingdienst.",
 
         "p": 10,
 
-        "m": "Gute Entscheidung.Nutze diesen Dienst so gut aus wie es geht und wenn es keinen Spaß mehr macht kündige und abonniere einen anderen"
+        "m": "Gute Entscheidung.Nutze diesen Dienst so gut aus wie es geht und wenn es keinen Spaß mehr macht kündige und abonniere einen anderen."
       }
     ]
   },
@@ -337,7 +337,7 @@
   "19": {
     "0": [
       {
-        "a": "Ich kaufe mir neue Schuhe die Gerade nicht verfügbar sind von einen 3. Anbieter",
+        "a": "Ich kaufe mir neue Schuhe die Gerade nicht verfügbar sind von einen 3. Anbieter.",
 
         "p": 150,
 
@@ -345,7 +345,7 @@
       },
 
       {
-        "a": "Ich kaufe mir Schuhe sobald sie wieder verfügbar sind",
+        "a": "Ich kaufe mir Schuhe sobald sie wieder verfügbar sind.",
 
         "p": 65,
 
@@ -357,18 +357,18 @@
   "20": {
     "0": [
       {
-        "a": "Ich fahre mit dem Fahrrad in die Schule",
+        "a": "Ich fahre mit dem Fahrrad in die Schule.",
 
         "p": 0,
 
         "m": "Gute Entscheidung.Fahrradfahren ist gesund und spart Geld."
       },
       {
-        "a": "Ich fahre mit dem Auto in die Schule",
+        "a": "Ich fahre mit dem Auto in die Schule.",
 
         "p": 20,
 
-        "m": "Schlechte Entscheidung.Tanken ist nicht billig aber wenn es regenet gibt es keine andere Option"
+        "m": "Schlechte Entscheidung.Tanken ist nicht billig aber wenn es regenet gibt es keine andere Option."
       }
     ]
   },
@@ -376,19 +376,19 @@
   "21": {
     "0": [
       {
-        "a": "Ich Kaufe mir einen Online kurs über Finanzen und Schaue diesen",
+        "a": "Ich Kaufe mir einen Online kurs über Finanzen und Schaue diesen.",
 
         "p": 40,
 
-        "m": "Gute Entscheidung.Der Kurs wird sich auszahlen"
+        "m": "Gute Entscheidung.Der Kurs wird sich auszahlen."
       },
 
       {
-        "a": "Ich Schaue den ganzen Tag Netflix",
+        "a": "Ich Schaue den ganzen Tag Netflix.",
 
         "p": 0,
 
-        "m": "Schlechte Entscheidung. Ein bisschen entspannen ist wichtig aber nicht den ganzen Tag "
+        "m": "Schlechte Entscheidung. Ein bisschen entspannen ist wichtig aber nicht den ganzen Tag."
       }
     ]
   },
@@ -396,19 +396,19 @@
   "22": {
     "0": [
       {
-        "a": "Ich kaufe mir 5 Snus Packungen",
+        "a": "Ich kaufe mir 5 Snus Packungen.",
 
         "p": 20,
 
-        "m": "Schlechte Entscheidung.Genau wie Zigaretten kosten sie jede Woche Geld"
+        "m": "Schlechte Entscheidung.Genau wie Zigaretten kosten sie jede Woche Geld."
       },
 
       {
-        "a": "Ich kaufe mir Schokoriegel",
+        "a": "Ich kaufe mir Schokoriegel.",
 
         "p": 4,
 
-        "m": "Gute Entscheidung.Zucker ist zwar auch ungesund aber nicht so ungesund wie Nikotin"
+        "m": "Gute Entscheidung.Zucker ist zwar auch ungesund aber nicht so ungesund wie Nikotin."
       }
     ]
   },
@@ -416,14 +416,14 @@
   "23": {
     "0": [
       {
-        "a": "Ich kauf mir einen normalen Teddybär",
+        "a": "Ich kauf mir einen normalen Teddybär.",
 
         "p": 20,
 
         "m": "Gute Entscheidung.Warum würdest du einen riesigen Teddybär brauchen?"
       },
       {
-        "a": "Ich kaufe mir einen riesigen Teddybär",
+        "a": "Ich kaufe mir einen riesigen Teddybär.",
 
         "p": 40,
 
@@ -435,27 +435,27 @@
   "25": {
     "0": [
       {
-        "a": "Ich Kaufe mir marken Parfüm",
+        "a": "Ich Kaufe mir marken Parfüm.",
         "p": 60,
-        "m": "Schlechte Entscheidung.Du hast einen ähnliche Duft für das Doppelte des Preis"
+        "m": "Schlechte Entscheidung.Du hast einen ähnliche Duft für das Doppelte des Preis."
       },
 
       {
-        "a": "Ich informiere mich über Parfüm und kaufe mir einen gleich guten Billigeren",
+        "a": "Ich informiere mich über Parfüm und kaufe mir einen gleich guten Billigeren.",
         "p": 30,
-        "m": "Gute Entscheidung.Du hast einen ähnliche Duft für die hälfte des Preis"
+        "m": "Gute Entscheidung.Du hast einen ähnliche Duft für die hälfte des Preis."
       }
     ]
   },
   "26": {
     "0": [
       {
-        "a": "Ich kaufe eine Jahreskarte für den öffentlichen Nahverkehr",
+        "a": "Ich kaufe eine Jahreskarte für den öffentlichen Nahverkehr.",
         "p": 30,
         "m": "Gute Entscheidung. Eine Jahreskarte kann langfristig Kosten sparen und ist umweltfreundlicher als das eigene Auto."
       },
       {
-        "a": "Ich fahre jede mal mit meinen Auto",
+        "a": "Ich fahre jede mal mit meinen Auto.",
         "p": 70,
         "m": "Schlechte Entscheidung. Das eigene Auto kann langfristig teurer sein als der öffentliche Nahverkehr und ist oft umweltschädlich."
       }
@@ -464,13 +464,13 @@
   "27": {
     "0": [
       {
-        "a": "Ich gehe Shisha Rauchen mit Freunden",
+        "a": "Ich gehe Shisha Rauchen mit Freunden.",
         "p": 25,
-        "m": "Schlechte Entscheidung.Nicht so schlimm wie Zigaretten aber trotzdem teuer"
+        "m": "Schlechte Entscheidung.Nicht so schlimm wie Zigaretten aber trotzdem teuer."
       },
 
       {
-        "a": "Ich gehe nicht Shisha Rauchen mit Freunden",
+        "a": "Ich gehe nicht Shisha Rauchen mit Freunden.",
         "p": 0,
         "m": "Gute Entscheidung."
       }
@@ -479,45 +479,45 @@
   "28": {
     "0": [
       {
-        "a": "Ich Kaufe mir die nächsten 3 Tage fast Food",
+        "a": "Ich Kaufe mir die nächsten 3 Tage fast Food.",
         "p": 40,
-        "m": "Schlechte Entscheidung.Nicht so schlimm wie Zigaretten aber trotzdem teuer"
+        "m": "Schlechte Entscheidung.Nicht so schlimm wie Zigaretten aber trotzdem teuer."
       },
 
       {
-        "a": "Ich Kaufe mir einmal Lebensmittel um daheim zu Kochen",
+        "a": "Ich Kaufe mir einmal Lebensmittel um daheim zu Kochen.",
         "p": 20,
-        "m": "Gute Entscheidung.Es mag zwar am Anfang teuerer sein aber über längere Zeit zahlt es sich aus"
+        "m": "Gute Entscheidung.Es mag zwar am Anfang teuerer sein aber über längere Zeit zahlt es sich aus."
       }
     ]
   },
   "29": {
     "0": [
       {
-        "a": "Ich kaufe mir ein Aribnb als Unterkunft",
+        "a": "Ich kaufe mir ein Aribnb als Unterkunft.",
         "p": 50,
-        "m": "Gute Entscheidung.Ein Airbnb ist emistens Billiger als ien Hotel und amn hat mehr Freiheiten"
+        "m": "Gute Entscheidung.Ein Airbnb ist emistens Billiger als ien Hotel und amn hat mehr Freiheiten."
       },
 
       {
-        "a": "Ich kaufe mir ein Hotel als Unterkunft",
+        "a": "Ich kaufe mir ein Hotel als Unterkunft.",
         "p": 100,
-        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Dabei"
+        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Dabei."
       }
     ]
   },
   "30": {
     "0": [
       {
-        "a": "Ich kaufe mir ein Aribnb als Unterkunf",
+        "a": "Ich kaufe mir ein Aribnb als Unterkunft.",
         "p": 50,
-        "m": "Gute Entscheidung.Ein Airbnb ist emistens Billiger als ien Hotel und amn hat mehr Freiheiten"
+        "m": "Gute Entscheidung.Ein Airbnb ist emistens Billiger als ien Hotel und amn hat mehr Freiheiten."
       },
 
       {
-        "a": "Ich kaufe mir ein Hotel als Unterkunf",
+        "a": "Ich kaufe mir ein Hotel als Unterkunft.",
         "p": 100,
-        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Dabei"
+        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Dabei."
       }
     ]
   }
