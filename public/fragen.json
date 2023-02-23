@@ -88,7 +88,7 @@
       },
 
       {
-        "a": "Ich kaufe einen Vorrat meines Lieblingsessen ohne Action",
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessen ohne Aktion",
 
         "p": 20,
 
@@ -147,7 +147,7 @@
         "m": "Gute Entscheidung. In der Regel werden Videospiel-Preise im Laufe der Zeit reduziert."
       },
       {
-        "a": "Ich kauf mir ein neues direkt bei der veröffentlichung Videospiel",
+        "a": "Ich kauf mir ein neues Videospiel direkt bei der Veröffentlichung ",
 
         "p": 70,
 
@@ -337,9 +337,9 @@
   "19": {
     "0": [
       {
-        "a": "Ich kaufe mir neue Schuhe auf StockX",
+        "a": "Ich kaufe mir neue Schuhe die Gerade nciht verfügbar sind von einen 3. Anbieter",
 
-        "p": 200,
+        "p": 150,
 
         "m": "Schlechte Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
       },
@@ -347,7 +347,7 @@
       {
         "a": "Ich kaufe mir Schuhe sobald sie wieder verfügbar sind",
 
-        "p": 100,
+        "p": 65,
 
         "m": "Gute Entscheidung.Teure Schuhe sind aus finanzieller Sicht eine schlechte Idee, da sie möglicherweise keinen Mehrwert bieten, kurzlebig sein können und eine unverhältnismäßig hohe Ausgabe darstellen können."
       }

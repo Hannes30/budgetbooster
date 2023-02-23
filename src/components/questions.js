@@ -55,7 +55,7 @@ export default function Questions() {
       </Message>
     );
   } else if (count == 15) {
-    if (chosenOptions[10] == 0) {
+    if (chosenOptions[21] == 0) {
       objToRender = (
         <Message cb={newDay} value={100}>
           Durch dein erlangtes Wissen aus den 2 Büchern die du dir an tag 11
@@ -66,7 +66,7 @@ export default function Questions() {
       newDay(0);
     }
   } else if (count == 24) {
-    if (chosenOptions[21] == 0) {
+    if (chosenOptions[19] == 0) {
       objToRender = (
         <Message cb={newDay} value={150}>
           Durch dein erlangtes Wissen aus dem Online Kurs hast du 150€ verdient
@@ -169,7 +169,7 @@ export default function Questions() {
     objToRender = (
       <div className={qStyles.stats}>
         <h1>Geld</h1>
-        <div className={qStyles.endMoneyDisplay}>{money}€</div>
+        <div className={qStyles.endMoneyDisplay}>{money - 15}€</div>
         <h1>Ausgaben</h1>
         <div className={qStyles.statsGraphContainer}>
           <ChartComponent
