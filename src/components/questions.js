@@ -7,7 +7,7 @@ import itemsBuy from "../../public/items.json";
 import ChartComponent from "./ChartComponent";
 import Comparison from "./comparison";
 import Message from "./message";
-import Tutorial from "./tutorial";
+import Tutorial from "./Tutorial";
 import MoneyDisplay from "./moneyDisplay";
 import ItemsYouCouldBuy from "./itemsYouCouldBuy";
 import Sources from "./sources";
