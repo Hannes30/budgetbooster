@@ -47,7 +47,7 @@ const Comparison = (props) => {
         {data.money.toFixed(2)}€
       </div>
       <div className={cStyles.avarageMoneyText}>
-        Soviel Geld hat der Durchschnitts Spieler am Ende Des Spiels
+        Soviel Geld hat der Durchschnitts Spieler am Ende des Spiels
       </div>
       <div className={cStyles.chartParent}>{objToRender}</div>
       <h2>
