@@ -48,7 +48,7 @@ export default function Questions() {
     let message =
       chosenOptions[5] == 0
         ? "Deine Mutter schenkt dir eine Kerze und 180€ in bar"
-        : "Deine Mutter schenkt dir nichts da du ihr auch nichts geschenkt hast";
+        : "Deine Mutter schenkt dir nichts, da du ihr auch nichts geschenkt hast";
     objToRender = (
       <Message cb={newDay} value={chosenOptions[5] == 0 ? 180 : 0}>
         Es ist dein Geburtstag. {message}
@@ -63,9 +63,11 @@ export default function Questions() {
         </Message>
       );
     } else {
-      <Message cb={newDay} value={0}>
-        Du hättest heute Geld verdienen können aber dir fehlte das Wissen.
-      </Message>;
+      objToRender = (
+        <Message cb={newDay} value={0}>
+          Du hättest heute Geld verdienen können aber dir fehlte das Wissen.
+        </Message>
+      );
     }
   } else if (count == 24) {
     if (chosenOptions[19] == 0) {
@@ -75,10 +77,12 @@ export default function Questions() {
         </Message>
       );
     } else {
-      <Message cb={newDay} value={0}>
-        Heute ergab sich eine möglichkeit Geld zu verdienen aber du hast den
-        Online Kurs nicht besucht.
-      </Message>;
+      objToRender = (
+        <Message cb={newDay} value={0}>
+          Heute ergab sich eine möglichkeit Geld zu verdienen aber du hast den
+          Online Kurs nicht besucht.
+        </Message>
+      );
     }
   } else if (count == -1) {
     objToRender = <Tutorial setCount={setCount} value={0} money={money} />;
