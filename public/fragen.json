@@ -337,7 +337,7 @@
   "19": {
     "0": [
       {
-        "a": "Ich kaufe mir neue Schuhe die Gerade nicht verfügbar sind von einen 3. Anbieter.",
+        "a": "Ich kaufe mir neue Schuhe die gerade nicht verfügbar sind von einem 3. Anbieter.",
 
         "p": 150,
 
@@ -376,7 +376,7 @@
   "21": {
     "0": [
       {
-        "a": "Ich Kaufe mir einen Online kurs über Finanzen und Schaue diesen.",
+        "a": "Ich kaufe mir einen Online Kurs über Finanzen und schaue diesen.",
 
         "p": 40,
 
@@ -384,7 +384,7 @@
       },
 
       {
-        "a": "Ich Schaue den ganzen Tag Netflix.",
+        "a": "Ich schaue den ganzen Tag Netflix.",
 
         "p": 0,
 
@@ -479,7 +479,7 @@
   "28": {
     "0": [
       {
-        "a": "Ich Kaufe mir die nächsten 3 Tage fast Food.",
+        "a": "Ich kaufe mir die nächsten 3 Tage Fast Food.",
         "p": 40,
         "m": "Schlechte Entscheidung.Nicht so schlimm wie Zigaretten aber trotzdem teuer."
       },
@@ -496,13 +496,13 @@
       {
         "a": "Ich kaufe mir ein Aribnb als Unterkunft.",
         "p": 50,
-        "m": "Gute Entscheidung.Ein Airbnb ist meistens Billiger als ein Hotel und man hat mehr Freiheiten."
+        "m": "Gute Entscheidung.Ein AirBnB ist meistens Billiger als ein Hotel und man hat mehr Freiheiten."
       },
 
       {
-        "a": "Ich kaufe mir ein Hotel als Unterkunft.",
+        "a": "Ich kaufe mir ein Hotel Zimmer als Unterkunft.",
         "p": 100,
-        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein Airbnb aber das Essen ist oft Inklusive."
+        "m": "Schlechte Entscheidung.Ein Hotel ist meistens Teurer als ein AirBnB aber das Essen ist oft Inklusive."
       }
     ]
   },
