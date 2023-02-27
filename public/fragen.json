@@ -28,7 +28,7 @@
       },
 
       {
-        "a": "Ich kaufe mir nach Schule einen Proteinriegel.",
+        "a": "Ich kaufe mir nach der Schule einen Proteinriegel.",
 
         "p": 2,
 
@@ -40,7 +40,7 @@
   "2": {
     "0": [
       {
-        "a": "Ich kaufe mir eine Topfentasche beim Bäcker.",
+        "a": "Ich kaufe mir eine  tasche beim Bäcker.",
 
         "p": 3,
 
@@ -52,7 +52,7 @@
 
         "p": 1,
 
-        "m": "Gute Entscheidung. Die Topfentasche schmeckt fast so gut und ist viel billiger."
+        "m": "Gute Entscheidung. Die Topfentasche schmeckt fast genauso gut und ist viel billiger."
       }
     ]
   },
@@ -72,7 +72,7 @@
 
         "p": 20,
 
-        "m": "Gute Entscheidung. Second Hand-Shooping ist Billiger und kann Spaß machen."
+        "m": "Gute Entscheidung. Second Hand-Shopping ist Billiger und kann Spaß machen."
       }
     ]
   },
@@ -80,7 +80,7 @@
   "4": {
     "0": [
       {
-        "a": "Ich kaufe einen Vorrat meines Lieblingsessen in Aktion.",
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessens in Aktion.",
 
         "p": 10,
 
@@ -88,7 +88,7 @@
       },
 
       {
-        "a": "Ich kaufe einen Vorrat meines Lieblingsessen ohne Aktion.",
+        "a": "Ich kaufe einen Vorrat meines Lieblingsessens ohne Aktion.",
 
         "p": 20,
 
@@ -100,19 +100,19 @@
   "5": {
     "0": [
       {
-        "a": "Ich kaufe meiner Mutter ein Geburtstags Geschenk.",
+        "a": "Ich kaufe meiner Mutter ein Geburtstagsgeschenk.",
 
         "p": 40,
 
-        "m": "Gute Entscheidung. Später oder früher zahlt es sich aus, nicht geizig zu sein."
+        "m": "Gute Entscheidung. Früher oder später zahlt es sich aus, nicht geizig zu sein."
       },
 
       {
-        "a": "Ich kaufe meiner Mutter kein Geburtstags Geschenk.",
+        "a": "Ich kaufe meiner Mutter kein Geburtstagsgeschenk.",
 
         "p": 0,
 
-        "m": "Schlechte Entscheidung. Später oder früher zahlt es sich aus nicht geizig zu sein."
+        "m": "Schlechte Entscheidung. Früher oder später zahlt es sich aus nicht geizig zu sein."
       }
     ]
   },
@@ -128,7 +128,7 @@
       },
 
       {
-        "a": "Ich benütze einen Spotify Account alleine.",
+        "a": "Ich benutze einen Spotify Account alleine.",
 
         "p": 10,
 
@@ -147,7 +147,7 @@
         "m": "Gute Entscheidung. In der Regel werden Videospiel-Preise im Laufe der Zeit reduziert."
       },
       {
-        "a": "Ich kauf mir ein neues Videospiel direkt bei der Veröffentlichung.",
+        "a": "Ich kaufe mir ein neues Videospiel direkt bei der Veröffentlichung.",
 
         "p": 70,
 
@@ -167,7 +167,7 @@
       },
 
       {
-        "a": "Ich gehe zu einen Kollegen feiern.",
+        "a": "Ich gehe zu einem Kollegen Feiern.",
 
         "p": 30,
 
@@ -191,7 +191,7 @@
 
         "p": 0,
 
-        "m": "Gute Entscheidung. Es ist wichtig, Zeit für sich selbst zu haben und sich zu erholen, um für die kommende Woche bereit zu sein."
+        "m": "Gute Entscheidung. Es ist wichtig sich zu erholen, um für die kommende Woche bereit zu sein."
       }
     ]
   },
@@ -203,7 +203,7 @@
 
         "p": 20,
 
-        "m": "Gute Entscheidung. Das Return of Investment ist bei Bildung immer sehr hoch."
+        "m": "Gute Entscheidung. Das 'Return of Investment' ist bei Bildung immer sehr hoch."
       },
 
       {
@@ -211,7 +211,7 @@
 
         "p": 10,
 
-        "m": "Schlechte Entscheidung. Das Return of Investment ist bei Zeitschriften nicht so hoch wie bei Bücher."
+        "m": "Schlechte Entscheidung. Das 'Return of Investment' ist bei Zeitschriften nicht so hoch wie bei Bücher."
       }
     ]
   },

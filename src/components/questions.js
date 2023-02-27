@@ -7,7 +7,7 @@ import itemsBuy from "../../public/items.json";
 import ChartComponent from "./ChartComponent";
 import Comparison from "./comparison";
 import Message from "./message";
-import Tutorial from "./Tutorial";
+import Tutorial from "./tutorial";
 import MoneyDisplay from "./moneyDisplay";
 import ItemsYouCouldBuy from "./itemsYouCouldBuy";
 import Sources from "./sources";
@@ -24,7 +24,6 @@ export default function Questions() {
   const [moneyHistory, setMoneyHistory] = useState(new Array());
   const [chosenOptions, setChosenOption] = useState(new Array());
   const [questions, setQuestions] = useState([]);
-
 
   useEffect(() => {
     async function fetchData() {
@@ -60,7 +59,7 @@ export default function Questions() {
       objToRender = (
         <Message cb={newDay} value={100}>
           Durch dein erlangtes Wissen aus den 2 Büchern die du dir an tag 11
-          gekauft hast, hast du 100 euro verdient
+          gekauft hast, hast du 100 euro verdient.
         </Message>
       );
     } else {

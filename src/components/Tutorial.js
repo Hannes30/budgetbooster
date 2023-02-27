@@ -8,8 +8,8 @@ const Tutorial = (props) => {
         Starte mit {props.money}€ Startkapital und baue dein Vermögen täglich
         auf, indem du durch das Spiel navigierst. Das Spiel dauert 30 virtuelle
         Tage und du erhältst täglich zusätzliche 15€. Du musst jeden Tag eine
-        Entscheidung treffen wie du dein Geld ausgibst. Nicht immer ist die
-        Option wo man im Moment am meisten Geld behält die Beste ;)
+        Entscheidung treffen wie du dein Geld ausgibst.Nicht immer ist die
+        Option, wo man im Moment am meisten Geld behält, die beste ;)
       </div>
       <button
         className={qStyles.startGame}
