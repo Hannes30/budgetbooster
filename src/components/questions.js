@@ -25,6 +25,7 @@ export default function Questions() {
   const [chosenOptions, setChosenOption] = useState(new Array());
   const [questions, setQuestions] = useState([]);
 
+
   useEffect(() => {
     async function fetchData() {
       const data = await getQuestions();
@@ -55,15 +56,17 @@ export default function Questions() {
       </Message>
     );
   } else if (count == 15) {
-    if (chosenOptions[21] == 0) {
+    if (chosenOptions[10] == 0) {
       objToRender = (
         <Message cb={newDay} value={100}>
           Durch dein erlangtes Wissen aus den 2 Büchern die du dir an tag 11
-          gekauft hast hast du 100 euro verdient
+          gekauft hast, hast du 100 euro verdient
         </Message>
       );
     } else {
-      newDay(0);
+      <Message cb={newDay} value={0}>
+        Du hättest heute Geld verdienen können aber dir fehlte das Wissen.
+      </Message>;
     }
   } else if (count == 24) {
     if (chosenOptions[19] == 0) {
@@ -73,7 +76,10 @@ export default function Questions() {
         </Message>
       );
     } else {
-      newDay(0);
+      <Message cb={newDay} value={0}>
+        Heute ergab sich eine möglichkeit Geld zu verdienen aber du hast den
+        Online Kurs nicht besucht.
+      </Message>;
     }
   } else if (count == -1) {
     objToRender = <Tutorial setCount={setCount} value={0} money={money} />;
@@ -165,7 +171,6 @@ export default function Questions() {
       );
     }
   } else {
-    console.log(moneyHistory);
     objToRender = (
       <div className={qStyles.stats}>
         <h1>Geld</h1>
