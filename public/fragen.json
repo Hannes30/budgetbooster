@@ -40,7 +40,7 @@
   "2": {
     "0": [
       {
-        "a": "Ich kaufe mir eine  tasche beim Bäcker.",
+        "a": "Ich kaufe mir eine Topfentasche beim Bäcker.",
 
         "p": 3,
 
@@ -230,7 +230,7 @@
 
         "p": 25,
 
-        "m": "Gute Entscheidung. Ins Kino zu gehen kann ein schöner und unterhaltsamer Abend sein."
+        "m": "Gute Entscheidung. In ein Kino gehen kann schön und unterhaltsam sein."
       }
     ]
   },
@@ -242,15 +242,15 @@
 
         "p": 40,
 
-        "m": "Gute Entscheidung. Auch wenn es viel kostet ist eine investition in den eigenen Körper meistens das Geld Wert."
+        "m": "Gute Entscheidung. Auch wenn es viel kostet, ist eine Investition in den eigenen Körper meistens das Geld wert."
       },
 
       {
-        "a": "Ich mache Sport mit meinen eigenen Körpergewicht.",
+        "a": "Ich mache Sport mit meinem eigenen Körpergewicht.",
 
         "p": 0,
 
-        "m": "Gute Entscheidung. Man kann genauso einen fitten Körper erreichen ohne ins gym zu gehen."
+        "m": "Gute Entscheidung. Man kann genauso einen fitten Körper erreichen ohne ins Gym zu gehen."
       }
     ]
   },
@@ -278,18 +278,18 @@
   "16": {
     "0": [
       {
-        "a": "Ich kaufe denn battle pass nicht.",
+        "a": "Ich kaufe denn Battle Bass nicht.",
 
         "p": 0,
 
-        "m": "Gute Entscheidung.Man hat zwar einen Nachteil im spiel aber einen Vorteil in der Geldbörse."
+        "m": "Gute Entscheidung. Man hat zwar einen Nachteil im Spiel aber einen Vorteil in der Geldbörse."
       },
       {
-        "a": "Ich kaufe den battle pass in Clash of Clans.",
+        "a": "Ich kaufe den Battle Pass in Clash of Clans.",
 
         "p": 6,
 
-        "m": "Schlechte Entscheidung.Man hat zwar einen Vorteil im spiel aber einen Nachteil in der Geldbörse."
+        "m": "Schlechte Entscheidung. Man hat zwar einen Vorteil im Spiel aber einen Nachteil in der Geldbörse."
       }
     ]
   },
@@ -301,15 +301,15 @@
 
         "p": 50,
 
-        "m": "Schlechte Entscheidung.Ein Marken Rucksack bringt nicht mehr funktionalität."
+        "m": "Schlechte Entscheidung. Ein Marken Rucksack bringt nicht mehr Funktionalität."
       },
 
       {
-        "a": "Ich kaufe einen normalen Rucksack.",
+        "a": "Ich kaufe mir einen normalen Rucksack.",
 
         "p": 25,
 
-        "m": "Gute Entscheidung.Bringt genau so viel wie der Marken Rucksack nur ist er Billiger."
+        "m": "Gute Entscheidung. Bringt genauso viel wie der Marken Rucksack, nur ist er billiger."
       }
     ]
   },
@@ -317,19 +317,19 @@
   "18": {
     "0": [
       {
-        "a": "Ich kaufe mir Disney+,Netflix und Amazon Prime.",
+        "a": "Ich kaufe mir Disney+, Netflix und Amazon Prime.",
 
         "p": 40,
 
-        "m": "Schlechte Entscheidung. Viele Streaming diente kosten viel und kosten auch jeden Monat etwas. Am besten wäre es einen dienst auszunützen kündigen und dann den nächsten kaufen."
+        "m": "Schlechte Entscheidung. Viele Streaming dienste kosten viel und kosten auch jeden Monat etwas. Am besten wäre es einen Dienst auszunützen, kündigen und dann den Nächsten abonnieren."
       },
 
       {
-        "a": "Ich kaufe mir nur Zugang zu einen Streamingdienst.",
+        "a": "Ich kaufe mir nur Zugang zu einem Streamingdienst.",
 
         "p": 10,
 
-        "m": "Gute Entscheidung.Nutze diesen Dienst so gut aus wie es geht und wenn es keinen Spaß mehr macht kündige und abonniere einen anderen."
+        "m": "Gute Entscheidung.Nutze diesen Dienst so gut wie möglich, und wenn es keinen Spaß mehr macht, kündige und abonniere einen anderen."
       }
     ]
   },

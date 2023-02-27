@@ -58,8 +58,8 @@ export default function Questions() {
     if (chosenOptions[10] == 0) {
       objToRender = (
         <Message cb={newDay} value={100}>
-          Durch dein erlangtes Wissen aus den 2 Büchern die du dir an tag 11
-          gekauft hast, hast du 100 euro verdient.
+          Durch dein erlangtes Wissen aus den 2 Büchern die du dir an Tag 11
+          gekauft hast, hast du 100 Euro verdient.
         </Message>
       );
     } else {
