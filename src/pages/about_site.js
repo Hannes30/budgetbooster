@@ -54,13 +54,12 @@ export default function Home() {
         <h2 className={aboutStyles.emergenceHeading}>Entstehung</h2>
         <div className={homeStyles.infoText + " " + aboutStyles.emergenceText}>
           Ich, Hannes Scheibelauer, bin ein 17-jähriger Schüler an der IT-HTL
-          Ybbs und habe das BudgetBooster-Spiel im Rahmen des Kardea Projekts
-          2022 entwickelt. Als jemand, der sowohl eine Leidenschaft für
-          Technologie als auch für Finanzen hat, bietet das Spiel eine
-          unterhaltsame Möglichkeit, Finanzkonzepte zu erlernen. Mein Ziel war
-          es, eine einzigartige Ressource zu schaffen, die Jugendliche dabei
-          unterstützt, ihr Sparvehalten zu verbessern und gleichzeitig Spaß zu
-          haben.
+          Ybbs und habe das BudgetBooster-Spiel im Rahmen eine Projekts
+          entwickelt. Als jemand, der sowohl eine Leidenschaft für Technologie
+          als auch für Finanzen hat, bietet das Spiel eine unterhaltsame
+          Möglichkeit, Finanzkonzepte zu erlernen. Mein Ziel war es, eine
+          einzigartige Ressource zu schaffen, die Jugendliche dabei unterstützt,
+          ihr Sparvehalten zu verbessern und gleichzeitig Spaß zu haben.
         </div>
       </div>
 
