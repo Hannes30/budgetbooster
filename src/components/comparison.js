@@ -42,7 +42,6 @@ const Comparison = (props) => {
   return (
     <div className={cStyles.wrapper}>
       <h1 className={cStyles.heading}> Du vs andere Spieler</h1>
-      <h2 className={cStyles.heading2}>Geld</h2>
       <div className={cStyles.avarageMoneyDisplay}>
         {data.money.toFixed(2)}€
       </div>
