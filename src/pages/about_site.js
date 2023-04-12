@@ -54,7 +54,7 @@ export default function Home() {
         <h2 className={aboutStyles.emergenceHeading}>Entstehung</h2>
         <div className={homeStyles.infoText + " " + aboutStyles.emergenceText}>
           Ich, Hannes Scheibelauer, bin ein 17-jähriger Schüler an der IT-HTL
-          Ybbs und habe das BudgetBooster-Spiel im Rahmen eine Projekts
+          Ybbs und habe das BudgetBooster-Spiel im Rahmen eines Projekts
           entwickelt. Als jemand, der sowohl eine Leidenschaft für Technologie
           als auch für Finanzen hat, bietet das Spiel eine unterhaltsame
           Möglichkeit, Finanzkonzepte zu erlernen. Mein Ziel war es, eine
